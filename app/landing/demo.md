@@ -21,28 +21,15 @@ def a():
 (lambda a: print(a))(().__doc__)
 ```
 
-```jsx !content
-content = {
-  // !block(1:4) 1
-  intro: {
-    title: "Roman Emperors",
-    children: <p>The ...</p>,
-  },
-  emperors: [
-    // !block(1:9) 2
-    {
-      title: "Augustus",
-      children: <p>The ...</p>,
-      img: { src: "/one.png" },
-      code: {
-        lang: "js",
-        value: "console.log(1)",
-      },
-    },
-    // !block 3
-    { title: "Nero", ... },
-    // !block 4
-    { title: "Trajan", ... },
-  ],
-}
+```py !content
+>>> import sys
+>>> frame = sys._getframe()
+>>> 
+>>> frame.f_builtins == __builtins__.__dict__
+True
+>>> frame.f_builtins['abc'] = 3
+>>> frame.f_builtins['abc']
+3
+>>> frame.f_builtins == __builtins__.__dict__
+True
 ```

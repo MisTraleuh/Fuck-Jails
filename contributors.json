@@ -1,0 +1,18 @@
+{
+    "contributors": [
+        {
+            "name": "Mistraleuh",
+            "url": "https://github.com/Mistraleuh",
+            "avatar": "https://avatars.githubusercontent.com/u/91086003",
+            "role": "Creator",
+            "languages": ["Python", "JavaScript", "PHP", "Ruby", "C++", "C"]
+        },
+        {
+            "name": "Guillaume Kucia",
+            "url": "https://github.com/KuciaGuillaume",
+            "avatar": "https://avatars.githubusercontent.com/u/91091263",
+            "role": "Contributor",
+            "languages": ["Python", "JavaScript", "Ruby", "C++", "C"]
+        }
+    ]
+}

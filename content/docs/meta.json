@@ -2,10 +2,7 @@
   "title": "Docs",
   "pages": [
     "index",
-    "concepts/blocks",
-    "concepts/code",
-    "concepts/annotations",
-    "concepts/utils",
+    "remerciement",
     "---Examples---",
     "code",
     "layouts",
