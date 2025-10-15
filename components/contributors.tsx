@@ -72,7 +72,7 @@ export async function Contributors() {
             }}
           >
             {/* Animated background gradient */}
-            <div className={`absolute inset-0 bg-gradient-to-br ${getGradientFromLanguages(contributor.languages)} opacity-0 group-hover:opacity-100 transition-opacity duration-700`} />
+            <div className={`absolute inset-0 bg-gradient-to-br ${getGradientFromLanguages(contributor.languages)} opacity-0 group-hover:opacity-60 transition-opacity duration-700`} />
             
             {/* Floating particles effect */}
             <div className="absolute inset-0 overflow-hidden">
@@ -87,7 +87,7 @@ export async function Contributors() {
             </div>
 
             {/* Content */}
-            <div className="relative z-10 flex flex-col items-center text-center">
+            <div className="relative z-30 flex flex-col items-center text-center">
               {/* Avatar with enhanced effects */}
               <div className="relative mb-4">
                 <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-blue-400/20 via-purple-500/20 to-pink-500/20 blur-md scale-0 group-hover:scale-120 transition-transform duration-1000" />
@@ -116,13 +116,13 @@ export async function Contributors() {
                   <span
                     key={lang}
                     style={{
-                      backgroundColor: `${languageColors[lang] ?? "#555"}15`,
+                      backgroundColor: `${languageColors[lang] ?? "#555"}25`,
                       color: languageColors[lang] ?? "#ddd",
-                      border: `1px solid ${languageColors[lang] ?? "#666"}30`,
-                      boxShadow: `0 0 10px ${languageColors[lang] ?? "#666"}20`,
+                      border: `1px solid ${languageColors[lang] ?? "#666"}40`,
+                      boxShadow: `0 0 15px ${languageColors[lang] ?? "#666"}30`,
                       animationDelay: `${langIndex * 100}ms`,
                     }}
-                    className="text-xs px-2 py-1 rounded-full font-medium backdrop-blur-sm hover:scale-110 hover:shadow-lg transition-all duration-300 cursor-default"
+                    className="text-xs px-2 py-1 rounded-full font-medium backdrop-blur-md hover:scale-110 hover:shadow-lg transition-all duration-300 cursor-default relative z-20"
                   >
                     {lang}
                   </span>
