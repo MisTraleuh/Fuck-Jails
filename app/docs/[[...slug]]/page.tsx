@@ -6,7 +6,7 @@ import { notFound } from "next/navigation"
 import { LayoutExample } from "./layout-example"
 import { CodeExample } from "./code-example"
 import { PreviewImplementation } from "./preview-implementation"
-import { AllCodeDemos } from "@/components/all-code-demos"
+import { AllCodeDemos, AllPythonCheatSheetDemos } from "@/components/all-code-demos"
 
 export default async function Page({
   params,
@@ -30,7 +30,15 @@ export default async function Page({
         <AllCodeDemos />
       </>
     )
-  } else if (layout === "LayoutExample") {
+  } else if (layout === "PythonCheatSheet") {
+    children = (
+      <>
+        <MDX />
+        <AllPythonCheatSheetDemos />
+      </>
+    )
+  }
+  else if (layout === "LayoutExample") {
     children = <LayoutExample MDX={MDX} />
   } else if (layout === "CodeExample") {
     children = <CodeExample MDX={MDX} />

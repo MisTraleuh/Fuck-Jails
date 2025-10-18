@@ -8,11 +8,13 @@ export async function Demo({
   children,
   className,
   content = "content.md",
+  displayUsage = true,
 }: {
   name: string
   content?: string
   children: React.ReactNode
   className?: string
+  displayUsage?: boolean
 }) {
   const value = await fs.promises.readFile(
     path.join(process.cwd(), "demos", name, content),
@@ -50,7 +52,9 @@ export async function Demo({
         className,
       )}
     >
-      <div className="min-w-0 flex-1 max-h-full">{usage}</div>
+      {displayUsage && (
+        <div className="min-w-0 flex-1 max-h-full">{usage}</div>
+      )}
       {preview}
     </div>
   )

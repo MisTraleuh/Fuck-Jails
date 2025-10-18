@@ -8,7 +8,7 @@ import { ComponentPackLink } from "@/components/component-pack-link"
 
 const ContentSchema = Block.extend({
   demo: Block,
-  implementation: Block,
+  implementation: Block.optional(),
 })
 
 export function PreviewImplementation({ MDX }: { MDX: any }) {
@@ -19,8 +19,12 @@ export function PreviewImplementation({ MDX }: { MDX: any }) {
   return (
     <>
       {demo.children}
-      <h2>Implementation</h2>
-      {implementation.children}
+      {implementation && (  
+        <>
+          <h2>Implementation</h2>
+          {implementation.children}
+        </>
+      )}
     </>
   )
 }
