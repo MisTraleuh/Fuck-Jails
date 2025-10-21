@@ -1,6 +1,0 @@
-services:
-  pycomment:
-    build: .
-    restart: unless-stopped
-    ports:
-      - 7531:7531
