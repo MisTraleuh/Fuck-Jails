@@ -15,4 +15,7 @@ print("\U00000068\U00000065\U0000006c\U0000006c\U0000006f")
 # Only with builtins
 print(().__doc__[56] + ().__doc__[17] + ().__doc__[3] + ().__doc__[3] + ().__doc__[34])
 print(().__doc__[56].__add__(().__doc__[17].__add__(().__doc__[3].__add__(().__doc__[3].__add__(().__doc__[34])))))
+
+
+print(chr(ord('ʚ')-ord('ȫ'))+chr(ord('ř')-ord('æ'))+chr(ord('ř')-ord('æ'))+chr(ord('ȉ')-ord('ơ')))
 ```
