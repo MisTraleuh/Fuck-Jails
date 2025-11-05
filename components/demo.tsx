@@ -9,17 +9,20 @@ export async function Demo({
   className,
   content = "content.md",
   displayUsage = true,
+  folder,
 }: {
   name: string
   content?: string
   children: React.ReactNode
   className?: string
-  displayUsage?: boolean
+  displayUsage?: boolean,
+  folder?: string,
 }) {
   const value = await fs.promises.readFile(
-    path.join(process.cwd(), "demos", name, content),
+    path.join(process.cwd(), "demos", folder ?? '', name, content),
     "utf-8",
   )
+  const folderValue = folder ? folder + '/' : '';
 
   const usage = (
     <Code
@@ -32,7 +35,7 @@ export async function Demo({
     />
   )
 
-  const { default: Page } = await import(`@/demos/${name}/page`)
+  const { default: Page } = await import(`@/demos/${folderValue}${name}/page`)
 
   const preview = (
     <div className="min-w-0 rounded flex-1 bg-blue-900/80 bg-[url(/dark-grid.svg)] p-3 flex flex-col overflow-hidden prose-invert">

@@ -109,7 +109,7 @@ export function generateMetadata({ params }: { params: { slug: string } }) {
   if (page == null) notFound()
 
   return {
-    title: page.data.title + " | Code Hike",
+    title: page.data.title + " | Fuck Jails",
     description: page.data.description,
     openGraph: {
       title: page.data.title,

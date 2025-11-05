@@ -33,7 +33,9 @@ export function AllCodeDemos() {
 
 export function AllPythonCheatSheetDemos() {
   const p = docs.getPages()
-  const codePages = p.filter((page) => page.slugs[0] === "python-cheat-sheet")
+  const codePages = p.filter((page) => {
+    return page.slugs[0] === "python-cheat-sheet" || page.slugs[0] === "c-cheat-sheet"
+  })
   const demoPages = codePages.filter(
     (page) => page.data.layout === "PreviewAndImplementation",
   )

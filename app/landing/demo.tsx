@@ -28,7 +28,6 @@ const { content, page } = parseRoot(
   Block.extend({ page: CodeBlock, content: CodeBlock }),
 )
 
-console.log(page);
 page.meta = "Pyjail  Cheatsheet";
 (page as any).prefix = "py.py"
 

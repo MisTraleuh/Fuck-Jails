@@ -31,7 +31,7 @@ export default function Layout({ children }: { children: ReactNode }) {
   )
 }
 export const metadata: Metadata = {
-  title: "Code Hike",
+  title: "Fuck Jails",
   description:
     "Use Markdown and React to build rich content websites. Documentation, tutorials, blogs, videos, interactive walkthroughs, and more.",
   // metadataBase: new URL("https://codehike.org"),
