@@ -86,9 +86,15 @@ export function generateMetadata({ params }: { params: { slug?: string[] } }) {
   return {
     title: page.data.title + " | Fuck Jails",
     description: page.data.description,
+    icons: {
+      icon: "/logo.png",
+      shortcut: "/logo.png",
+      apple: "/logo.png",
+    },
     openGraph: {
       title: page.data.title + " | Fuck Jails",
       description: page.data.description,
+      images: ["/logo.png"],
     },
   } satisfies Metadata
 }

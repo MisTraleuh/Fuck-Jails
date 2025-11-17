@@ -111,11 +111,16 @@ export function generateMetadata({ params }: { params: { slug: string } }) {
   return {
     title: page.data.title + " | Fuck Jails",
     description: page.data.description,
+    icons: {
+      icon: "/logo.png",
+      shortcut: "/logo.png",
+      apple: "/logo.png",
+    },
     openGraph: {
       title: page.data.title,
       type: "article",
       description: page.data.description,
-      images: `https://codehike.org/blog/${params.slug}.png`,
+      images: [`https://codehike.org/blog/${params.slug}.png`, "/logo.png"],
     },
     twitter: {
       card: "summary_large_image",
@@ -123,7 +128,7 @@ export function generateMetadata({ params }: { params: { slug: string } }) {
       creator: "@pomber",
       title: page.data.title,
       description: page.data.description,
-      images: `https://codehike.org/blog/${params.slug}.png`,
+      images: [`https://codehike.org/blog/${params.slug}.png`, "/logo.png"],
     },
   } satisfies Metadata
 }

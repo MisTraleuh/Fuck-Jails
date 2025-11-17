@@ -32,12 +32,19 @@ export default function Layout({ children }: { children: ReactNode }) {
 }
 export const metadata: Metadata = {
   title: "Fuck Jails",
+  icons: {
+    icon: [
+      { url: "/logo.png", type: "image/png" },
+    ],
+    shortcut: "/logo.png",
+    apple: "/logo.png",
+  },
   description:
     "Use Markdown and React to build rich content websites. Documentation, tutorials, blogs, videos, interactive walkthroughs, and more.",
   // metadataBase: new URL("https://codehike.org"),
   openGraph: {
     title: "Code Hike",
-    images: `https://codehike.org/codehike.png`,
+    images: [`https://codehike.org/codehike.png`, "/logo.png"],
     siteName: "Code Hike",
   },
   twitter: {
