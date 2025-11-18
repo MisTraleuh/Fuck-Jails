@@ -33,18 +33,18 @@ page.meta = "Pyjail  Cheatsheet";
 
 export function Demo() {
   return (
-    <div className="grid grid-cols-2 md:[grid-template-columns:1fr_2fr_1fr] items-center gap-2 mt-12 max-w-3xl mx-auto w-96 md:w-auto px-3 md:px-2">
-      <div className="col-span-1 flex items-center">
+    <div className="flex flex-col md:flex-row items-center justify-center gap-2 mt-12 w-full mx-auto px-3 md:px-2">
+      <div className="flex items-center justify-center w-full md:w-auto md:flex-1">
         <LeftSide />
       </div>
-      <div className="col-span-2 md:col-span-1 md:order-none order-first">
+      <div className="flex items-center justify-center w-full md:w-auto md:flex-[2] order-first md:order-none">
         <Code
           className="min-w-0 m-0 flex-2"
           codeblock={page}
           extraHandlers={[rainbow, tooltip]}
         />
       </div>
-      <div className="col-span-1 flex items-center">
+      <div className="flex items-center justify-center w-full md:w-auto md:flex-1">
         <Preview>
           <Scrolly />
         </Preview>
