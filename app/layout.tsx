@@ -30,7 +30,14 @@ export default function Layout({ children }: { children: ReactNode }) {
     </html>
   )
 }
+const baseUrl = process.env.BASE_PATH 
+  ? `https://mistraleuh.github.io${process.env.BASE_PATH}`
+  : process.env.NODE_ENV === 'production'
+  ? 'https://mistraleuh.github.io/Fuck-Jails'
+  : 'http://localhost:3000'
+
 export const metadata: Metadata = {
+  metadataBase: new URL(baseUrl),
   title: "Fuck Jails",
   icons: {
     icon: [
@@ -41,7 +48,6 @@ export const metadata: Metadata = {
   },
   description:
     "Use Markdown and React to build rich content websites. Documentation, tutorials, blogs, videos, interactive walkthroughs, and more.",
-  // metadataBase: new URL("https://codehike.org"),
   openGraph: {
     title: "Code Hike",
     images: [`https://codehike.org/codehike.png`, "/logo.png"],
