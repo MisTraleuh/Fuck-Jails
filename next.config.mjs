@@ -35,12 +35,14 @@ const withMDX = createNextDocsMDX({
 /** @type {import('next').NextConfig} */
 const config = {
   reactStrictMode: true,
-  webpack: (config) => {
-    // fix https://github.com/microsoft/TypeScript-Website/pull/3022
-    config.module.exprContextCritical = false
-    return config
-  },
+  // Configuration pour GitHub Pages
+  // Si votre repo n'est pas username.github.io, définissez BASE_PATH dans le workflow
+  // Exemple: BASE_PATH=/nom-de-votre-repo
+  output: process.env.NODE_ENV === 'production' ? 'export' : undefined,
+  basePath: process.env.BASE_PATH || '',
+  assetPrefix: process.env.BASE_PATH || '',
   images: {
+    unoptimized: true, // Requis pour l'export statique
     remotePatterns: [
       {
         protocol: "https",
@@ -55,6 +57,11 @@ const config = {
         pathname: "/**",
       },
     ],
+  },
+  webpack: (config) => {
+    // fix https://github.com/microsoft/TypeScript-Website/pull/3022
+    config.module.exprContextCritical = false
+    return config
   },
 }
 
