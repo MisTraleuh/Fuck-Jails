@@ -38,11 +38,13 @@ const config = {
   // Configuration pour GitHub Pages
   // Si votre repo n'est pas username.github.io, définissez BASE_PATH dans le workflow
   // Exemple: BASE_PATH=/nom-de-votre-repo
-  output: process.env.NODE_ENV === 'production' ? 'export' : undefined,
+  // L'export statique n'est activé que si GITHUB_ACTIONS est défini (dans le workflow CI/CD)
+  output: process.env.GITHUB_ACTIONS === 'true' ? 'export' : undefined,
   basePath: process.env.BASE_PATH || '',
   assetPrefix: process.env.BASE_PATH || '',
   images: {
-    unoptimized: true, // Requis pour l'export statique
+    // Images non optimisées uniquement pour l'export statique (GitHub Pages)
+    unoptimized: process.env.GITHUB_ACTIONS === 'true',
     remotePatterns: [
       {
         protocol: "https",

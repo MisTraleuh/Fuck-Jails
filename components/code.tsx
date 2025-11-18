@@ -154,5 +154,5 @@ export function extractFlags(codeblock: RawCode) {
     codeblock.meta === flags
       ? ""
       : codeblock.meta.replace(" " + flags, "").trim()
-  return { title, flags: flags.slice(1).split(""), prefix: codeblock.prefix }
+  return { title, flags: flags.slice(1).split(""), prefix: (codeblock as RawCode & { prefix?: string }).prefix }
 }

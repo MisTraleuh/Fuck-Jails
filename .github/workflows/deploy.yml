@@ -34,8 +34,8 @@ jobs:
       - name: Build
         env:
           NODE_ENV: production
-          # Si votre repo n'est pas username.github.io, décommentez et ajustez la ligne suivante :
-          # BASE_PATH: /nom-de-votre-repo
+          GITHUB_ACTIONS: 'true'
+          BASE_PATH: /Fuck-Jails
         run: npm run build
 
       - name: Setup Pages
