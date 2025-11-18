@@ -35,6 +35,7 @@ export function NavBar({ version }: { version: string }) {
         },
       ]}
       items={[
+        /*
         {
           url: "/docs",
           text: "Docs",
@@ -43,6 +44,7 @@ export function NavBar({ version }: { version: string }) {
           url: "/blog",
           text: "Blog",
         },
+        */
       ]}
     >
     </Nav>
