@@ -1,4 +1,5 @@
 "use client"
+import { ReactNode } from "react"
 import { usePathname } from "next/navigation"
 import { Nav } from "next-docs-ui/nav"
 import { cn } from "../lib/utils"
@@ -9,8 +10,30 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
 
+type ExternalLink = {
+  href: string
+  label: string
+  icon: ReactNode
+  external?: boolean
+}
+
 export function NavBar({ version }: { version: string }) {
   const pathname = usePathname()
+  const socialLinks: ExternalLink[] = [
+    {
+      href: "https://discord.com/users/474143573928050710",
+      label: "Discord",
+      icon: <DiscordIcon className="h-5 w-5" />,
+      external: true,
+    },
+    {
+      href: "https://github.com/MisTraleuh/Fuck-Jails",
+      label: "GitHub",
+      icon: <GitHubIcon className="h-5 w-5" />,
+      external: true,
+    },
+  ]
+
   return (
     <Nav
       title={
@@ -20,20 +43,7 @@ export function NavBar({ version }: { version: string }) {
       }
       enableSidebar={pathname === "/docs" || pathname.startsWith("/docs/")}
       collapsibleSidebar={true}
-      links={[
-        {
-          href: "https://discord.com/users/474143573928050710",
-          label: "Discord",
-          icon: <DiscordIcon className="h-5 w-5" />,
-          external: true,
-        },
-        {
-          href: "https://github.com/MisTraleuh",
-          label: "GitHub",
-          icon: <GitHubIcon className="h-5 w-5" />,
-          external: true,
-        },
-      ]}
+      links={socialLinks}
       items={[
         /*
         {
@@ -47,6 +57,7 @@ export function NavBar({ version }: { version: string }) {
         */
       ]}
     >
+      <MobileLinks links={socialLinks} />
     </Nav>
   )
 }
@@ -126,5 +137,26 @@ function DiscordIcon({ className }: { className?: string }) {
         </clipPath>
       </defs>
     </svg>
+  )
+}
+
+function MobileLinks({ links }: { links: ExternalLink[] }) {
+  if (!links.length) return null
+
+  return (
+    <div className="ml-auto flex flex-row items-center gap-2 border-l pl-2 md:hidden">
+      {links.map((item) => (
+        <a
+          key={item.href}
+          href={item.href}
+          aria-label={item.label}
+          target={item.external ? "_blank" : undefined}
+          rel={item.external ? "noreferrer" : undefined}
+          className="inline-flex h-9 w-9 items-center justify-center rounded-full text-muted-foreground transition-colors hover:bg-accent hover:text-accent-foreground"
+        >
+          {item.icon}
+        </a>
+      ))}
+    </div>
   )
 }
