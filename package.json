@@ -6,6 +6,7 @@
     "build": "next build",
     "dev": "next dev",
     "start": "next start",
+    "generate:search": "node scripts/generate-search-index.mjs",
     "update-sponsors": "node app/landing/sponsors/update.js"
   },
   "dependencies": {
@@ -26,6 +27,8 @@
     "diff": "^5.1.0",
     "dotenv": "^16.4.1",
     "estree-util-to-js": "^2.0.0",
+    "github-slugger": "^2.0.0",
+    "gray-matter": "^4.0.3",
     "html-to-image": "^1.11.11",
     "lucide-react": "^0.303.0",
     "next": "14.1.0",

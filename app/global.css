@@ -2,16 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* hide search */
-[aria-label="Open Search"] {
-  display: none;
-}
-
-[aria-label="Open Search"] + button {
-  display: none;
-  /* outline: red 1px solid; */
-}
-
 html {
   --ch-0: dark;
   --ch-1: #a1a1aa;

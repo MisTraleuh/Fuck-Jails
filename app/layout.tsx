@@ -1,9 +1,9 @@
 import "./global.css"
-import { RootProvider } from "next-docs-ui/provider"
 import { Inter } from "next/font/google"
 import type { ReactNode } from "react"
 import { NavBar } from "../ui/nav"
 import { Analytics } from "@vercel/analytics/react"
+import { AppProviders } from "@/components/providers/app-provider"
 
 const inter = Inter({
   subsets: ["latin"],
@@ -21,10 +21,10 @@ export default function Layout({ children }: { children: ReactNode }) {
     >
       {/* <script src="https://unpkg.com/intersection-observer-debugger"></script> */}
       <body suppressHydrationWarning>
-        <RootProvider>
+        <AppProviders>
           <NavBar version={ch.version} />
           {children}
-        </RootProvider>
+        </AppProviders>
         <Analytics />
       </body>
     </html>

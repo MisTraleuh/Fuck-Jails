@@ -1,0 +1,286 @@
+{
+  "generatedAt": "2025-11-23T23:06:03.226Z",
+  "pages": [
+    {
+      "id": "docs",
+      "title": "🏁 Introduction",
+      "normalizedTitle": "🏁 introduction",
+      "url": "/docs",
+      "category": "Docs",
+      "categorySlug": "docs",
+      "normalizedCategory": "docs",
+      "headings": [
+        {
+          "id": "-langages-supportés",
+          "title": "📚 Langages supportés",
+          "normalizedTitle": "📚 langages supportes"
+        },
+        {
+          "id": "-mon-approche",
+          "title": "📋 Mon Approche",
+          "normalizedTitle": "📋 mon approche"
+        },
+        {
+          "id": "-report-de-bugs",
+          "title": "🐞 Report de Bugs",
+          "normalizedTitle": "🐞 report de bugs"
+        }
+      ]
+    },
+    {
+      "id": "docs/c-cheat-sheet",
+      "title": "C Cheat Sheets",
+      "normalizedTitle": "c cheat sheets",
+      "url": "/docs/c-cheat-sheet",
+      "category": "C Cheat Sheet",
+      "categorySlug": "c-cheat-sheet",
+      "normalizedCategory": "c cheat sheet",
+      "headings": []
+    },
+    {
+      "id": "docs/c-cheat-sheet/asm-tricks",
+      "title": "ASM tricks",
+      "normalizedTitle": "asm tricks",
+      "url": "/docs/c-cheat-sheet/asm-tricks",
+      "category": "C Cheat Sheet",
+      "categorySlug": "c-cheat-sheet",
+      "normalizedCategory": "c cheat sheet",
+      "headings": []
+    },
+    {
+      "id": "docs/c-cheat-sheet/bypass-symbols",
+      "title": "Bypass Symbols",
+      "normalizedTitle": "bypass symbols",
+      "url": "/docs/c-cheat-sheet/bypass-symbols",
+      "category": "C Cheat Sheet",
+      "categorySlug": "c-cheat-sheet",
+      "normalizedCategory": "c cheat sheet",
+      "headings": [
+        {
+          "id": "diagraphs",
+          "title": "Diagraphs",
+          "normalizedTitle": "diagraphs"
+        },
+        {
+          "id": "trigraphs",
+          "title": "Trigraphs",
+          "normalizedTitle": "trigraphs"
+        },
+        {
+          "id": "main-without--",
+          "title": "Main Without `-{}#%>?!`",
+          "normalizedTitle": "main without `-{}#%>?!`"
+        }
+      ]
+    },
+    {
+      "id": "docs/c-cheat-sheet/good-to-know",
+      "title": "Good To Know",
+      "normalizedTitle": "good to know",
+      "url": "/docs/c-cheat-sheet/good-to-know",
+      "category": "C Cheat Sheet",
+      "categorySlug": "c-cheat-sheet",
+      "normalizedCategory": "c cheat sheet",
+      "headings": [
+        {
+          "id": "create-char--strings",
+          "title": "Create char & strings",
+          "normalizedTitle": "create char & strings"
+        },
+        {
+          "id": "create-int",
+          "title": "Create int",
+          "normalizedTitle": "create int"
+        }
+      ]
+    },
+    {
+      "id": "docs/c-cheat-sheet/without-alphabeat",
+      "title": "Without Alphabeat",
+      "normalizedTitle": "without alphabeat",
+      "url": "/docs/c-cheat-sheet/without-alphabeat",
+      "category": "C Cheat Sheet",
+      "categorySlug": "c-cheat-sheet",
+      "normalizedCategory": "c cheat sheet",
+      "headings": []
+    },
+    {
+      "id": "docs/c-cheat-sheet/without-lower-letters",
+      "title": "Without Lower Letters",
+      "normalizedTitle": "without lower letters",
+      "url": "/docs/c-cheat-sheet/without-lower-letters",
+      "category": "C Cheat Sheet",
+      "categorySlug": "c-cheat-sheet",
+      "normalizedCategory": "c cheat sheet",
+      "headings": []
+    },
+    {
+      "id": "docs/c-cheat-sheet/without-main",
+      "title": "Without Parenthese",
+      "normalizedTitle": "without parenthese",
+      "url": "/docs/c-cheat-sheet/without-main",
+      "category": "C Cheat Sheet",
+      "categorySlug": "c-cheat-sheet",
+      "normalizedCategory": "c cheat sheet",
+      "headings": []
+    },
+    {
+      "id": "docs/contributions",
+      "title": "🌟 Contributions",
+      "normalizedTitle": "🌟 contributions",
+      "url": "/docs/contributions",
+      "category": "Contributions",
+      "categorySlug": "contributions.mdx",
+      "normalizedCategory": "contributions",
+      "headings": []
+    },
+    {
+      "id": "docs/python-cheat-sheet",
+      "title": "Python Cheat Sheets",
+      "normalizedTitle": "python cheat sheets",
+      "url": "/docs/python-cheat-sheet",
+      "category": "Python Cheat Sheet",
+      "categorySlug": "python-cheat-sheet",
+      "normalizedCategory": "python cheat sheet",
+      "headings": []
+    },
+    {
+      "id": "docs/python-cheat-sheet/bypass-commentary",
+      "title": "Bypass Commentary",
+      "normalizedTitle": "bypass commentary",
+      "url": "/docs/python-cheat-sheet/bypass-commentary",
+      "category": "Python Cheat Sheet",
+      "categorySlug": "python-cheat-sheet",
+      "normalizedCategory": "python cheat sheet",
+      "headings": [
+        {
+          "id": "dinghz-and-",
+          "title": "ding:hz and ~",
+          "normalizedTitle": "ding:hz and ~"
+        },
+        {
+          "id": "zip-confusion",
+          "title": "zip confusion",
+          "normalizedTitle": "zip confusion"
+        }
+      ]
+    },
+    {
+      "id": "docs/python-cheat-sheet/decorators",
+      "title": "Decorators",
+      "normalizedTitle": "decorators",
+      "url": "/docs/python-cheat-sheet/decorators",
+      "category": "Python Cheat Sheet",
+      "categorySlug": "python-cheat-sheet",
+      "normalizedCategory": "python cheat sheet",
+      "headings": []
+    },
+    {
+      "id": "docs/python-cheat-sheet/environment-variables",
+      "title": "Environment Variables",
+      "normalizedTitle": "environment variables",
+      "url": "/docs/python-cheat-sheet/environment-variables",
+      "category": "Python Cheat Sheet",
+      "categorySlug": "python-cheat-sheet",
+      "normalizedCategory": "python cheat sheet",
+      "headings": []
+    },
+    {
+      "id": "docs/python-cheat-sheet/finding-sinks-from-modules",
+      "title": "Finding sinks from modules",
+      "normalizedTitle": "finding sinks from modules",
+      "url": "/docs/python-cheat-sheet/finding-sinks-from-modules",
+      "category": "Python Cheat Sheet",
+      "categorySlug": "python-cheat-sheet",
+      "normalizedCategory": "python cheat sheet",
+      "headings": [
+        {
+          "id": "how-to-find-sinks-from-modules",
+          "title": "How to find sinks from modules",
+          "normalizedTitle": "how to find sinks from modules"
+        }
+      ]
+    },
+    {
+      "id": "docs/python-cheat-sheet/format-string",
+      "title": "Format string",
+      "normalizedTitle": "format string",
+      "url": "/docs/python-cheat-sheet/format-string",
+      "category": "Python Cheat Sheet",
+      "categorySlug": "python-cheat-sheet",
+      "normalizedCategory": "python cheat sheet",
+      "headings": []
+    },
+    {
+      "id": "docs/python-cheat-sheet/good-to-know",
+      "title": "Good to know",
+      "normalizedTitle": "good to know",
+      "url": "/docs/python-cheat-sheet/good-to-know",
+      "category": "Python Cheat Sheet",
+      "categorySlug": "python-cheat-sheet",
+      "normalizedCategory": "python cheat sheet",
+      "headings": [
+        {
+          "id": "create-char--strings",
+          "title": "Create char & strings",
+          "normalizedTitle": "create char & strings"
+        },
+        {
+          "id": "create-digits",
+          "title": "Create digits",
+          "normalizedTitle": "create digits"
+        }
+      ]
+    },
+    {
+      "id": "docs/python-cheat-sheet/magic-methods",
+      "title": "Magic Methods",
+      "normalizedTitle": "magic methods",
+      "url": "/docs/python-cheat-sheet/magic-methods",
+      "category": "Python Cheat Sheet",
+      "categorySlug": "python-cheat-sheet",
+      "normalizedCategory": "python cheat sheet",
+      "headings": []
+    },
+    {
+      "id": "docs/python-cheat-sheet/retrieving-builtins",
+      "title": "Retrieving builtins",
+      "normalizedTitle": "retrieving builtins",
+      "url": "/docs/python-cheat-sheet/retrieving-builtins",
+      "category": "Python Cheat Sheet",
+      "categorySlug": "python-cheat-sheet",
+      "normalizedCategory": "python cheat sheet",
+      "headings": []
+    },
+    {
+      "id": "docs/python-cheat-sheet/unicode-bypass",
+      "title": "Unicode Bypass",
+      "normalizedTitle": "unicode bypass",
+      "url": "/docs/python-cheat-sheet/unicode-bypass",
+      "category": "Python Cheat Sheet",
+      "categorySlug": "python-cheat-sheet",
+      "normalizedCategory": "python cheat sheet",
+      "headings": []
+    },
+    {
+      "id": "docs/python-cheat-sheet/with-only-base-execption",
+      "title": "Only Base Execption",
+      "normalizedTitle": "only base execption",
+      "url": "/docs/python-cheat-sheet/with-only-base-execption",
+      "category": "Python Cheat Sheet",
+      "categorySlug": "python-cheat-sheet",
+      "normalizedCategory": "python cheat sheet",
+      "headings": []
+    },
+    {
+      "id": "docs/python-cheat-sheet/without-parenthesis",
+      "title": "Without Parenthesis",
+      "normalizedTitle": "without parenthesis",
+      "url": "/docs/python-cheat-sheet/without-parenthesis",
+      "category": "Python Cheat Sheet",
+      "categorySlug": "python-cheat-sheet",
+      "normalizedCategory": "python cheat sheet",
+      "headings": []
+    }
+  ]
+}

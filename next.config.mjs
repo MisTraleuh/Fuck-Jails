@@ -1,5 +1,6 @@
 import createNextDocsMDX from "next-docs-mdx/config"
 import { remarkCodeHike, recmaCodeHike } from "codehike/mdx"
+import { generateSearchIndex } from "./scripts/generate-search-index.mjs"
 // import fs from "node:fs"
 // import { jsx, toJs } from "estree-util-to-js"
 // function recmaPlugin() {
@@ -23,6 +24,8 @@ const chConfig = {
   //   theme: "github-dark",
   // },
 }
+
+await generateSearchIndex()
 
 const withMDX = createNextDocsMDX({
   mdxOptions: {
