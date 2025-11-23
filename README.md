@@ -1,6 +1,6 @@
 # Fuck-Jails 🔓
 
-![Fuck Jails logo](public/logo.png)
+<img src="public/logo.png" alt="Fuck Jails logo" width="36" height="36" />
 
 **Fuck-Jails** is my personal, unapologetic playground for jailbreak tricks. I’m pouring every escape tactic I know into one place so that anyone can break out of the nastiest prompts, shells, and sandboxes. I’m extremely proud of how far this has come, and I’m even more excited about where it’s heading. 🚀
 
