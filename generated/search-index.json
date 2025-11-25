@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-11-23T23:06:03.226Z",
+  "generatedAt": "2025-11-25T10:34:50.476Z",
   "pages": [
     {
       "id": "docs",
@@ -241,6 +241,22 @@
       "categorySlug": "python-cheat-sheet",
       "normalizedCategory": "python cheat sheet",
       "headings": []
+    },
+    {
+      "id": "docs/python-cheat-sheet/pickle",
+      "title": "Pickle",
+      "normalizedTitle": "pickle",
+      "url": "/docs/python-cheat-sheet/pickle",
+      "category": "Python Cheat Sheet",
+      "categorySlug": "python-cheat-sheet",
+      "normalizedCategory": "python cheat sheet",
+      "headings": [
+        {
+          "id": "with-only-one-global",
+          "title": "With only one global",
+          "normalizedTitle": "with only one global"
+        }
+      ]
     },
     {
       "id": "docs/python-cheat-sheet/retrieving-builtins",
