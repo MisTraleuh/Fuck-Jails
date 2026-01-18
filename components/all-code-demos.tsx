@@ -88,3 +88,32 @@ export function AllCCheatSheetDemos() {
     )
   })
 }
+
+export function AllBashCheatSheetDemos() {
+  const p = docs.getPages()
+  const codePages = p.filter((page) => {
+    return page.slugs[0] === "bash-cheat-sheet"
+  })
+  const demoPages = codePages.filter(
+    (page) => page.data.layout === "PreviewAndImplementation",
+  )
+
+  return demoPages.map((page) => {
+    const { title, exports } = page.data
+    const { default: MDX } = exports
+    const { demo } = parseRoot(MDX, Block.extend({ demo: Block }), {
+      components: { Demo, CodeWithNotes },
+    })
+    const href = `/docs/${page.slugs.join("/")}`
+
+    return (
+      <div key={title}>
+        <h2>{title}</h2>
+        {demo.children}
+        <p>
+          See <Link href={href}>{title} implementation</Link>.
+        </p>
+      </div>
+    )
+  })
+}

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-11-23T23:06:03.226Z",
+  "generatedAt": "2026-01-17T19:47:37.486Z",
   "pages": [
     {
       "id": "docs",
@@ -26,6 +26,172 @@
           "normalizedTitle": "🐞 report de bugs"
         }
       ]
+    },
+    {
+      "id": "docs/bash-cheat-sheet",
+      "title": "Bash Cheat Sheets",
+      "normalizedTitle": "bash cheat sheets",
+      "url": "/docs/bash-cheat-sheet",
+      "category": "Bash Cheat Sheet",
+      "categorySlug": "bash-cheat-sheet",
+      "normalizedCategory": "bash cheat sheet",
+      "headings": []
+    },
+    {
+      "id": "docs/bash-cheat-sheet/environment-variables",
+      "title": "Environment Variables",
+      "normalizedTitle": "environment variables",
+      "url": "/docs/bash-cheat-sheet/environment-variables",
+      "category": "Bash Cheat Sheet",
+      "categorySlug": "bash-cheat-sheet",
+      "normalizedCategory": "bash cheat sheet",
+      "headings": [
+        {
+          "id": "bash_cmds--bash_aliases",
+          "title": "BASH_CMDS / BASH_ALIASES",
+          "normalizedTitle": "bash_cmds / bash_aliases"
+        },
+        {
+          "id": "ld_preload-injection",
+          "title": "LD_PRELOAD injection",
+          "normalizedTitle": "ld_preload injection"
+        },
+        {
+          "id": "bash_env-backdoor",
+          "title": "BASH_ENV backdoor",
+          "normalizedTitle": "bash_env backdoor"
+        },
+        {
+          "id": "debug-trap-hijack",
+          "title": "DEBUG trap hijack",
+          "normalizedTitle": "debug trap hijack"
+        },
+        {
+          "id": "devtcp-networking",
+          "title": "/dev/tcp networking",
+          "normalizedTitle": "/dev/tcp networking"
+        },
+        {
+          "id": "ifs-splitting-rce",
+          "title": "IFS splitting RCE",
+          "normalizedTitle": "ifs splitting rce"
+        },
+        {
+          "id": "arithmetic-expansion-rce",
+          "title": "Arithmetic expansion RCE",
+          "normalizedTitle": "arithmetic expansion rce"
+        },
+        {
+          "id": "ps1ps4prompt_command-injection",
+          "title": "PS1/PS4/PROMPT_COMMAND injection",
+          "normalizedTitle": "ps1/ps4/prompt_command injection"
+        },
+        {
+          "id": "command_not_found-hijack",
+          "title": "command_not_found hijack",
+          "normalizedTitle": "command_not_found hijack"
+        },
+        {
+          "id": "nameref-hijacking",
+          "title": "Nameref hijacking",
+          "normalizedTitle": "nameref hijacking"
+        },
+        {
+          "id": "mapfile-sorcery",
+          "title": "Mapfile sorcery",
+          "normalizedTitle": "mapfile sorcery"
+        },
+        {
+          "id": "coproc-socket-pivot",
+          "title": "Coproc socket pivot",
+          "normalizedTitle": "coproc socket pivot"
+        },
+        {
+          "id": "file-descriptor-teleportation",
+          "title": "File descriptor teleportation",
+          "normalizedTitle": "file descriptor teleportation"
+        },
+        {
+          "id": "bash_xtracefd-exfiltration",
+          "title": "BASH_XTRACEFD exfiltration",
+          "normalizedTitle": "bash_xtracefd exfiltration"
+        },
+        {
+          "id": "cdpath-navigation-hijack",
+          "title": "CDPATH navigation hijack",
+          "normalizedTitle": "cdpath navigation hijack"
+        },
+        {
+          "id": "hostaliases-dns-poisoning",
+          "title": "HOSTALIASES DNS poisoning",
+          "normalizedTitle": "hostaliases dns poisoning"
+        },
+        {
+          "id": "inputrc-key-injection",
+          "title": "INPUTRC key injection",
+          "normalizedTitle": "inputrc key injection"
+        },
+        {
+          "id": "locpath-locale-hijack",
+          "title": "LOCPATH locale hijack",
+          "normalizedTitle": "locpath locale hijack"
+        },
+        {
+          "id": "timeformat-rce",
+          "title": "TIMEFORMAT RCE",
+          "normalizedTitle": "timeformat rce"
+        },
+        {
+          "id": "mailpath-trigger",
+          "title": "MAILPATH trigger",
+          "normalizedTitle": "mailpath trigger"
+        },
+        {
+          "id": "completion-hijacking",
+          "title": "Completion hijacking",
+          "normalizedTitle": "completion hijacking"
+        }
+      ]
+    },
+    {
+      "id": "docs/bash-cheat-sheet/globbing-tricks",
+      "title": "Globbing tricks",
+      "normalizedTitle": "globbing tricks",
+      "url": "/docs/bash-cheat-sheet/globbing-tricks",
+      "category": "Bash Cheat Sheet",
+      "categorySlug": "bash-cheat-sheet",
+      "normalizedCategory": "bash cheat sheet",
+      "headings": []
+    },
+    {
+      "id": "docs/bash-cheat-sheet/without-alphabeat",
+      "title": "Without Alphabeat",
+      "normalizedTitle": "without alphabeat",
+      "url": "/docs/bash-cheat-sheet/without-alphabeat",
+      "category": "Bash Cheat Sheet",
+      "categorySlug": "bash-cheat-sheet",
+      "normalizedCategory": "bash cheat sheet",
+      "headings": []
+    },
+    {
+      "id": "docs/bash-cheat-sheet/without-lower-letters",
+      "title": "Without Lower Letters",
+      "normalizedTitle": "without lower letters",
+      "url": "/docs/bash-cheat-sheet/without-lower-letters",
+      "category": "Bash Cheat Sheet",
+      "categorySlug": "bash-cheat-sheet",
+      "normalizedCategory": "bash cheat sheet",
+      "headings": []
+    },
+    {
+      "id": "docs/bash-cheat-sheet/without-main",
+      "title": "Without Parenthese",
+      "normalizedTitle": "without parenthese",
+      "url": "/docs/bash-cheat-sheet/without-main",
+      "category": "Bash Cheat Sheet",
+      "categorySlug": "bash-cheat-sheet",
+      "normalizedCategory": "bash cheat sheet",
+      "headings": []
     },
     {
       "id": "docs/c-cheat-sheet",
