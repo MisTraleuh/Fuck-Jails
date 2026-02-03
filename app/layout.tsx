@@ -49,9 +49,9 @@ export const metadata: Metadata = {
   description:
     "Use Markdown and React to build rich content websites. Documentation, tutorials, blogs, videos, interactive walkthroughs, and more.",
   openGraph: {
-    title: "Code Hike",
-    images: [`https://codehike.org/codehike.png`, "/logo.png"],
-    siteName: "Code Hike",
+    title: "Fuck Jails",
+    images: [`https://mistraleuh.github.io/Fuck-Jails/logo.png`, "/logo.png"],
+    siteName: "Fuck Jails",
   },
   twitter: {
     card: "summary_large_image",
@@ -61,7 +61,7 @@ export const metadata: Metadata = {
   },
   alternates: {
     types: {
-      "application/rss+xml": "https://codehike.org/blog/feed.xml",
+      "application/rss+xml": "https://mistraleuh.github.io/Fuck-Jails/blog/feed.xml",
     },
   },
 }
