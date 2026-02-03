@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     apple: "/logo.png",
   },
   description:
-    "Use Markdown and React to build rich content websites. Documentation, tutorials, blogs, videos, interactive walkthroughs, and more.",
+    "Fuck Jails is a playground, unapologetically dedicated to jailbreak tricks. It brings together all escape techniques in one place so that everyone can escape the most unpleasant prompts, shells, and sandboxes 🚀",
   openGraph: {
     title: "Fuck Jails",
     images: [`https://mistraleuh.github.io/Fuck-Jails/logo.png`, "/logo.png"],
