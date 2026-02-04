@@ -57,7 +57,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@codehike_",
     creator: "@pomber",
-    images: `https://codehike.org/codehike.png`,
+    images: `https://mistraleuh.github.io/Fuck-Jails/logo.png`,
   },
   alternates: {
     types: {

@@ -112,7 +112,7 @@ export function Demo({ children }: { children: React.ReactNode }) {
           and{" "}
           <LinkWithCard
             href="https://codehike.org/"
-            image="https://codehike.org/codehike.png"
+            image="https://mistraleuh.github.io/Fuck-Jails/logo.png"
           >
             Code Hike
           </LinkWithCard>
