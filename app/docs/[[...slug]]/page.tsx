@@ -90,6 +90,14 @@ export function generateMetadata({ params }: { params: { slug?: string[] } }) {
 
   if (page == null) notFound()
 
+  const baseUrl = process.env.BASE_PATH
+    ? `https://mistraleuh.github.io${process.env.BASE_PATH}`
+    : process.env.NODE_ENV === "production"
+      ? "https://mistraleuh.github.io/Fuck-Jails"
+      : "http://localhost:3000"
+
+  const ogImage = `${baseUrl}/logo.png?v=2`
+
   return {
     title: page.data.title + " | Fuck Jails",
     description: page.data.description,
@@ -101,7 +109,11 @@ export function generateMetadata({ params }: { params: { slug?: string[] } }) {
     openGraph: {
       title: page.data.title + " | Fuck Jails",
       description: page.data.description,
-      images: ["/logo.png"],
+      images: [ogImage],
+    },
+    twitter: {
+      card: "summary_large_image",
+      images: [ogImage],
     },
   } satisfies Metadata
 }

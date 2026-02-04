@@ -50,14 +50,14 @@ export const metadata: Metadata = {
     "Fuck Jails is a playground, unapologetically dedicated to jailbreak tricks. It brings together all escape techniques in one place so that everyone can escape the most unpleasant prompts, shells, and sandboxes 🚀",
   openGraph: {
     title: "Fuck Jails",
-    images: [`https://mistraleuh.github.io/Fuck-Jails/logo.png`, "/logo.png"],
+    images: [`https://mistraleuh.github.io/Fuck-Jails/logo.png?v=2`, "/logo.png?v=2"],
     siteName: "Fuck Jails",
   },
   twitter: {
     card: "summary_large_image",
     site: "@codehike_",
     creator: "@pomber",
-    images: `https://mistraleuh.github.io/Fuck-Jails/logo.png`,
+    images: `https://mistraleuh.github.io/Fuck-Jails/logo.png?v=2`,
   },
   alternates: {
     types: {
