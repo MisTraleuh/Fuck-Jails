@@ -41,6 +41,13 @@
             "avatar": "https://avatars.githubusercontent.com/u/28482630",
             "role": "Contributor",
             "languages": ["C"]
+        },
+        {
+            "name": "Skav",
+            "url": "https://github.com/skav75",
+            "avatar": "https://avatars.githubusercontent.com/u/149662383",
+            "role": "Contributor",
+            "languages": ["Shellcode"]
         }
     ]
 }
