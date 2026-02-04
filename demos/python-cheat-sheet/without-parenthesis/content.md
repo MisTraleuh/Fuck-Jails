@@ -11,6 +11,8 @@
 [+license for license.__class__.__pos__ in [breakpoint]]
 [-quit for quit.__class__.__neg__ in [breakpoint]]
 [help["ls"] for help.__class__.__getitem__ in [system]]
+
+# Without space :)
 [[copyright.sh]for[[[copyright.__class__.__getattr__]]]in[[[[copyright.os.system]for[copyright.__class__.__getattr__]in[[__import__]]]]]]
 [[help[quit[license]]]for[help.__class__.__getitem__]in[[eval]for[quit.__class__.__getitem__]in[[input]]]]
 [[[help[quit[[]]]]for[quit.__class__.__getitem__]in[[input]]]for[help.__class__.__getitem__]in[[eval]]]
