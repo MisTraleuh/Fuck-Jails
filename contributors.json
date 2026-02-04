@@ -27,6 +27,20 @@
             "avatar": "https://avatars.githubusercontent.com/u/68814228",
             "role": "Contributor",
             "languages": ["Python"]
+        },
+        {
+            "name": "Shirajuki",
+            "url": "https://github.com/Shirajuki",
+            "avatar": "https://avatars.githubusercontent.com/u/20891306",
+            "role": "Contributor",
+            "languages": ["Python"]
+        },
+        {
+            "name": "blackndoor",
+            "url": "https://github.com/blackndoor",
+            "avatar": "https://avatars.githubusercontent.com/u/28482630",
+            "role": "Contributor",
+            "languages": ["C"]
         }
     ]
 }
