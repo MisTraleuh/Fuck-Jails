@@ -96,7 +96,7 @@ export function generateMetadata({ params }: { params: { slug?: string[] } }) {
       ? "https://mistraleuh.github.io/Fuck-Jails"
       : "http://localhost:3000"
 
-  const ogImage = `${baseUrl}/logo.png?v=2`
+  const ogImage = `${baseUrl}/logo.png?v=3`
 
   return {
     title: page.data.title + " | Fuck Jails",
