@@ -96,13 +96,13 @@ export function ContributorsClient({
               className={cn(
                 "group inline-flex items-center gap-2 rounded-full border px-3 py-1.5 text-[11px] font-semibold uppercase tracking-wide transition-all duration-300",
                 activeLanguage === "Tous"
-                  ? "border-white/30 bg-white/15 text-white shadow-[0_0_20px_rgba(255,255,255,0.2)]"
-                  : "border-white/10 bg-white/5 text-white/60 hover:border-white/30 hover:bg-white/10 hover:text-white",
+                  ? "border-black/30 bg-black/10 text-slate-900 shadow-[0_0_20px_rgba(0,0,0,0.15)] dark:border-white/30 dark:bg-white/15 dark:text-white dark:shadow-[0_0_20px_rgba(255,255,255,0.2)]"
+                  : "border-black/10 bg-black/5 text-slate-600 hover:border-black/30 hover:bg-black/10 hover:text-slate-900 dark:border-white/10 dark:bg-white/5 dark:text-white/60 dark:hover:border-white/30 dark:hover:bg-white/10 dark:hover:text-white",
               )}
             >
-              <span className="h-1.5 w-1.5 rounded-full bg-white/70" />
+              <span className="h-1.5 w-1.5 rounded-full bg-slate-700 dark:bg-white/70" />
               Tous
-              <span className="rounded-full bg-white/10 px-1.5 py-0.5 text-[9px] text-white/70">
+              <span className="rounded-full bg-black/10 px-1.5 py-0.5 text-[9px] text-slate-700 dark:bg-white/10 dark:text-white/70">
                 {contributors.length}
               </span>
             </button>
@@ -119,8 +119,8 @@ export function ContributorsClient({
                   className={cn(
                     "group inline-flex items-center gap-2 rounded-full border px-3 py-1.5 text-[11px] font-semibold uppercase tracking-wide transition-all duration-300",
                     isActive
-                      ? "border-white/30 bg-white/15 text-white"
-                      : "border-white/10 bg-white/5 text-white/60 hover:border-white/30 hover:bg-white/10 hover:text-white",
+                      ? "border-black/30 bg-black/10 text-slate-900 dark:border-white/30 dark:bg-white/15 dark:text-white"
+                      : "border-black/10 bg-black/5 text-slate-600 hover:border-black/30 hover:bg-black/10 hover:text-slate-900 dark:border-white/10 dark:bg-white/5 dark:text-white/60 dark:hover:border-white/30 dark:hover:bg-white/10 dark:hover:text-white",
                   )}
                   style={
                     isActive
@@ -148,13 +148,13 @@ export function ContributorsClient({
             })}
           </div>
 
-          <div className="rounded-full border border-white/10 bg-white/5 px-3 py-1 text-[11px] text-white/60">
+          <div className="rounded-full border border-black/10 bg-black/5 px-3 py-1 text-[11px] text-slate-600 dark:border-white/10 dark:bg-white/5 dark:text-white/60">
             {filteredContributors.length} / {contributors.length} affichés
           </div>
         </section>
 
         {filteredContributors.length === 0 ? (
-          <div className="rounded-3xl border border-white/10 bg-white/5 p-8 text-center text-sm text-white/60">
+          <div className="rounded-3xl border border-black/10 bg-black/5 p-8 text-center text-sm text-slate-600 dark:border-white/10 dark:bg-white/5 dark:text-white/60">
             Aucun contributeur pour ce langage pour le moment.
           </div>
         ) : (
@@ -165,7 +165,7 @@ export function ContributorsClient({
                 href={contributor.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="no-underline group relative overflow-hidden rounded-3xl border border-white/10 bg-gradient-to-br from-white/5 via-white/3 to-transparent backdrop-blur-sm p-6 hover:scale-[1.05] hover:rotate-1 transition-all duration-700 shadow-2xl hover:shadow-blue-500/25 hover:border-white/20 animate-fade-in-up cursor-pointer"
+                className="no-underline group relative overflow-hidden rounded-3xl border border-black/10 bg-gradient-to-br from-black/5 via-black/3 to-transparent backdrop-blur-sm p-6 hover:scale-[1.05] hover:rotate-1 transition-all duration-700 shadow-2xl hover:shadow-blue-500/25 hover:border-black/20 dark:border-white/10 dark:from-white/5 dark:via-white/3 dark:hover:border-white/20 animate-fade-in-up cursor-pointer"
                 style={{
                   animationDelay: `${index * 100}ms`,
                 }}
@@ -200,11 +200,11 @@ export function ContributorsClient({
                     </div>
                   </div>
 
-                  <h3 className="text-lg font-bold text-white mb-2 group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-blue-400 group-hover:via-purple-500 group-hover:to-pink-500 transition-all duration-500">
+                  <h3 className="text-lg font-bold text-slate-900 dark:text-white mb-2 group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-blue-400 group-hover:via-purple-500 group-hover:to-pink-500 transition-all duration-500">
                     {contributor.name}
                   </h3>
 
-                  <p className="text-xs text-blue-300/80 mb-4 px-3 py-1.5 rounded-full bg-white/5 border border-white/10 group-hover:bg-white/10 group-hover:border-white/20 transition-all duration-300">
+                  <p className="text-xs text-slate-600 mb-4 px-3 py-1.5 rounded-full bg-black/5 border border-black/10 group-hover:bg-black/10 group-hover:border-black/20 dark:text-blue-300/80 dark:bg-white/5 dark:border-white/10 dark:group-hover:bg-white/10 dark:group-hover:border-white/20 transition-all duration-300">
                     {contributor.role}
                   </p>
 

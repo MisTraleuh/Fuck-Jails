@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-03T13:21:04.062Z",
+  "generatedAt": "2026-02-04T13:45:50.922Z",
   "pages": [
     {
       "id": "docs",
@@ -272,6 +272,16 @@
       ]
     },
     {
+      "id": "docs/python-cheat-sheet/code-object-override",
+      "title": "Code object override",
+      "normalizedTitle": "code object override",
+      "url": "/docs/python-cheat-sheet/code-object-override",
+      "category": "Python Cheat Sheet",
+      "categorySlug": "python-cheat-sheet",
+      "normalizedCategory": "python cheat sheet",
+      "headings": []
+    },
+    {
       "id": "docs/python-cheat-sheet/decorators",
       "title": "Decorators",
       "normalizedTitle": "decorators",
@@ -402,6 +412,16 @@
       "category": "Python Cheat Sheet",
       "categorySlug": "python-cheat-sheet",
       "normalizedCategory": "python cheat sheet",
+      "headings": []
+    },
+    {
+      "id": "docs/todo",
+      "title": "✅ TODO",
+      "normalizedTitle": "✅ todo",
+      "url": "/docs/todo",
+      "category": "Todo",
+      "categorySlug": "todo.mdx",
+      "normalizedCategory": "todo",
       "headings": []
     }
   ]
