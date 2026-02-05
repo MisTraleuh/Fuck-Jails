@@ -3,7 +3,7 @@ title: ✅ TODO
 description: What is missing in the repo
 ---
 
-import { TodoSections } from "@/components/todo"
+import { TodoList, TodoSections } from "@/components/todo"
 import todo from "@/todo.json"
 import { PlainImg } from "@/components/plain-img"
 
@@ -37,9 +37,29 @@ import { PlainImg } from "@/components/plain-img"
   </div>
 </div>
 
-<TodoSections data={todo} />
+<div className="mt-6">
+  <h2 className="text-base font-semibold text-slate-900 dark:text-white">
+    Payload TODOs
+  </h2>
+  <p className="mt-1 text-sm text-slate-600 dark:text-white/60">
+    The next payload series to add or finish.
+  </p>
+</div>
 
-<div className="mt-4 grid gap-5 lg:grid-cols-[1.4fr_1fr]">
+<TodoSections sections={todo.payload.sections} />
+
+<div className="mt-6">
+  <h2 className="text-base font-semibold text-slate-900 dark:text-white">
+    Site TODOs
+  </h2>
+  <p className="mt-1 text-sm text-slate-600 dark:text-white/60">
+    Product and UX improvements for the website.
+  </p>
+</div>
+
+<TodoList sections={todo.site.sections} />
+
+<div className="mt-6 grid gap-5 lg:grid-cols-[1.4fr_1fr]">
   <div className="rounded-3xl border border-black/10 bg-black/5 p-4 dark:border-white/10 dark:bg-white/5">
     <p className="text-[11px] uppercase tracking-[0.4em] text-slate-500 dark:text-white/40">
       Activity

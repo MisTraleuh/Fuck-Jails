@@ -1,65 +1,80 @@
 {
-  "sections": [
-    {
-      "title": "Python",
-      "items": [
-        { "label": "Pickle tricks", "done": true },
-        { "label": "Magic methods overview", "done": true },
-        { "label": "Code object internals", "done": true },
-        { "label": "Retrieving deleted variables", "done": false }
-      ]
-    },
-    {
-      "title": "C / C++",
-      "items": [
-        { "label": "Trigraphs / digraphs", "done": true },
-        { "label": "Preprocessor tricks", "done": false },
-        { "label": "Only with variable", "done": false },
-        { "label": "Without alphanumeric characters", "done": false },
-        { "label": "Without main function", "done": false }
-      ]
-    },
-    {
-      "title": "ASM / ELF",
-      "items": [
-        { "label": "Minimal syscall templates", "done": false },
-        { "label": "Weird instruction encodings", "done": false },
-        { "label": "Polymorphic stubs", "done": false },
-        { "label": "ELF header tricks", "done": false }
-      ]
-    },
-    {
-      "title": "Shellcode",
-      "items": [
-        { "label": "Without letters", "done": false },
-        { "label": "Without digits", "done": false },
-        { "label": "Without null bytes", "done": false },
-        { "label": "Sorted by ASCII in ascending order", "done": false },
-        { "label": "Sorted by ASCII in descending order", "done": false }
-      ]
-    },
-    {
-      "title": "Javascript",
-      "items": [
-        { "label": "Prototype pollution", "done": false },
-        { "label": "Constructor injection", "done": false },
-        { "label": "Without parenthesis", "done": false },
-        { "label": "Without alphanumeric characters", "done": false },
-        { "label": "Without alphabetic characters", "done": false },
-        { "label": "Create digits & letters", "done": false },
-        { "label": "Dynamic import tricks", "done": false },
-        { "label": "Retrieve global", "done": false }
-      ]
-    },
-    {
-      "title": "PHP",
-      "items": [
-        { "label": "Without alphanumeric characters", "done": false },
-        { "label": "Create digits & letters", "done": false },
-        { "label": "Prototype pollution", "done": false },
-        { "label": "Constructor injection", "done": false },
-        { "label": "Without parenthesis", "done": false }
-      ]
-    }
-  ]
+  "payload": {
+    "sections": [
+      {
+        "title": "Python",
+        "items": [
+          { "label": "Pickle tricks", "done": true },
+          { "label": "Magic methods overview", "done": true },
+          { "label": "Code object internals", "done": true },
+          { "label": "Retrieving deleted variables", "done": false }
+        ]
+      },
+      {
+        "title": "C / C++",
+        "items": [
+          { "label": "Trigraphs / digraphs", "done": true },
+          { "label": "Preprocessor tricks", "done": false },
+          { "label": "Only with variable", "done": false },
+          { "label": "Without alphanumeric characters", "done": false },
+          { "label": "Without main function", "done": false }
+        ]
+      },
+      {
+        "title": "ASM / ELF",
+        "items": [
+          { "label": "Minimal syscall templates", "done": false },
+          { "label": "Weird instruction encodings", "done": false },
+          { "label": "Polymorphic stubs", "done": false },
+          { "label": "ELF header tricks", "done": false }
+        ]
+      },
+      {
+        "title": "Shellcode",
+        "items": [
+          { "label": "Without letters", "done": false },
+          { "label": "Without digits", "done": false },
+          { "label": "Without null bytes", "done": false },
+          { "label": "Sorted by ASCII in ascending order", "done": false },
+          { "label": "Sorted by ASCII in descending order", "done": false }
+        ]
+      },
+      {
+        "title": "Javascript",
+        "items": [
+          { "label": "Prototype pollution", "done": false },
+          { "label": "Constructor injection", "done": false },
+          { "label": "Without parenthesis", "done": false },
+          { "label": "Without alphanumeric characters", "done": false },
+          { "label": "Without alphabetic characters", "done": false },
+          { "label": "Create digits & letters", "done": false },
+          { "label": "Dynamic import tricks", "done": false },
+          { "label": "Retrieve global", "done": false }
+        ]
+      },
+      {
+        "title": "PHP",
+        "items": [
+          { "label": "Without alphanumeric characters", "done": false },
+          { "label": "Create digits & letters", "done": false },
+          { "label": "Prototype pollution", "done": false },
+          { "label": "Constructor injection", "done": false },
+          { "label": "Without parenthesis", "done": false }
+        ]
+      }
+    ]
+  },
+  "site": {
+    "sections": [
+      {
+        "title": "Site",
+        "items": [
+          { "label": "i18n (FR/EN)", "done": false },
+          { "label": "Search UX polish", "done": false },
+          { "label": "Tags + filters for payloads", "done": false },
+          { "label": "Roadmap / changelog section", "done": false }
+        ]
+      }
+    ]
+  }
 }
