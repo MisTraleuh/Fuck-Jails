@@ -69,7 +69,7 @@
       {
         "title": "Site",
         "items": [
-          { "label": "i18n (FR/EN)", "done": false },
+          { "label": "i18n (FR/EN)", "done": true },
           { "label": "Search UX polish", "done": false },
           { "label": "Tags + filters for payloads", "done": false },
           { "label": "Roadmap / changelog section", "done": false }
