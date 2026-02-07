@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-05T14:16:41.480Z",
+  "generatedAt": "2026-02-07T14:45:26.336Z",
   "pages": [
     {
       "id": "docs",
@@ -11,19 +11,19 @@
       "normalizedCategory": "docs",
       "headings": [
         {
-          "id": "-langages-supportés",
-          "title": "📚 Langages supportés",
-          "normalizedTitle": "📚 langages supportes"
+          "id": "-supported-languages",
+          "title": "📚 Supported languages",
+          "normalizedTitle": "📚 supported languages"
         },
         {
-          "id": "-mon-approche",
-          "title": "📋 Mon Approche",
-          "normalizedTitle": "📋 mon approche"
+          "id": "-my-approach",
+          "title": "📋 My approach",
+          "normalizedTitle": "📋 my approach"
         },
         {
-          "id": "-report-de-bugs",
-          "title": "🐞 Report de Bugs",
-          "normalizedTitle": "🐞 report de bugs"
+          "id": "-bug-reports",
+          "title": "🐞 Bug reports",
+          "normalizedTitle": "🐞 bug reports"
         }
       ]
     },
@@ -108,6 +108,16 @@
       "title": "Globbing tricks",
       "normalizedTitle": "globbing tricks",
       "url": "/docs/bash-cheat-sheet/globbing-tricks",
+      "category": "Bash Cheat Sheet",
+      "categorySlug": "bash-cheat-sheet",
+      "normalizedCategory": "bash cheat sheet",
+      "headings": []
+    },
+    {
+      "id": "docs/bash-cheat-sheet/index.fr",
+      "title": "Fiches Bash",
+      "normalizedTitle": "fiches bash",
+      "url": "/docs/bash-cheat-sheet/index.fr",
       "category": "Bash Cheat Sheet",
       "categorySlug": "bash-cheat-sheet",
       "normalizedCategory": "bash cheat sheet",
@@ -201,6 +211,16 @@
       ]
     },
     {
+      "id": "docs/c-cheat-sheet/index.fr",
+      "title": "Fiches C",
+      "normalizedTitle": "fiches c",
+      "url": "/docs/c-cheat-sheet/index.fr",
+      "category": "C Cheat Sheet",
+      "categorySlug": "c-cheat-sheet",
+      "normalizedCategory": "c cheat sheet",
+      "headings": []
+    },
+    {
       "id": "docs/c-cheat-sheet/without-alphabeat",
       "title": "Without Alphabeat",
       "normalizedTitle": "without alphabeat",
@@ -272,6 +292,27 @@
       ]
     },
     {
+      "id": "docs/python-cheat-sheet/bypass-commentary.fr",
+      "title": "Contournement des commentaires",
+      "normalizedTitle": "contournement des commentaires",
+      "url": "/docs/python-cheat-sheet/bypass-commentary.fr",
+      "category": "Python Cheat Sheet",
+      "categorySlug": "python-cheat-sheet",
+      "normalizedCategory": "python cheat sheet",
+      "headings": [
+        {
+          "id": "dinghz-and-",
+          "title": "ding:hz and ~",
+          "normalizedTitle": "ding:hz and ~"
+        },
+        {
+          "id": "zip-confusion",
+          "title": "zip confusion",
+          "normalizedTitle": "zip confusion"
+        }
+      ]
+    },
+    {
       "id": "docs/python-cheat-sheet/code-object-override",
       "title": "Code object override",
       "normalizedTitle": "code object override",
@@ -282,10 +323,30 @@
       "headings": []
     },
     {
+      "id": "docs/python-cheat-sheet/code-object-override.fr",
+      "title": "Override du code object",
+      "normalizedTitle": "override du code object",
+      "url": "/docs/python-cheat-sheet/code-object-override.fr",
+      "category": "Python Cheat Sheet",
+      "categorySlug": "python-cheat-sheet",
+      "normalizedCategory": "python cheat sheet",
+      "headings": []
+    },
+    {
       "id": "docs/python-cheat-sheet/decorators",
       "title": "Decorators",
       "normalizedTitle": "decorators",
       "url": "/docs/python-cheat-sheet/decorators",
+      "category": "Python Cheat Sheet",
+      "categorySlug": "python-cheat-sheet",
+      "normalizedCategory": "python cheat sheet",
+      "headings": []
+    },
+    {
+      "id": "docs/python-cheat-sheet/decorators.fr",
+      "title": "Decorateurs",
+      "normalizedTitle": "decorateurs",
+      "url": "/docs/python-cheat-sheet/decorators.fr",
       "category": "Python Cheat Sheet",
       "categorySlug": "python-cheat-sheet",
       "normalizedCategory": "python cheat sheet",
@@ -347,6 +408,16 @@
           "normalizedTitle": "create digits"
         }
       ]
+    },
+    {
+      "id": "docs/python-cheat-sheet/index.fr",
+      "title": "Fiches Python",
+      "normalizedTitle": "fiches python",
+      "url": "/docs/python-cheat-sheet/index.fr",
+      "category": "Python Cheat Sheet",
+      "categorySlug": "python-cheat-sheet",
+      "normalizedCategory": "python cheat sheet",
+      "headings": []
     },
     {
       "id": "docs/python-cheat-sheet/magic-methods",

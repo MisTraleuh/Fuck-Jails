@@ -1,0 +1,10 @@
+{
+  "title": "Python Cheat Sheets",
+  "pages": [
+    "index",
+    "...",
+    "bypass-commentary",
+    "code-object-override",
+    "decorators"
+  ]
+}

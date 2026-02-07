@@ -1,0 +1,104 @@
+---
+title: ✅ TODO
+description: Ce qui manque dans le repo
+---
+
+import { TodoList, TodoSections } from "@/components/todo"
+import todo from "@/todo.json"
+import { PlainImg } from "@/components/plain-img"
+
+<div className="relative overflow-hidden rounded-3xl border border-black/10 bg-gradient-to-br from-black/5 via-black/3 to-transparent p-4 dark:border-white/10 dark:from-white/5 dark:via-white/3">
+  <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(59,130,246,0.18),_transparent_55%)]" />
+  <div className="relative flex flex-col gap-3">
+    <div>
+      <p className="text-[10px] uppercase tracking-[0.35em] text-slate-500 dark:text-white/40">
+        Roadmap
+      </p>
+      <h1 className="text-xl font-semibold text-slate-900 dark:text-white">
+        TODO repo
+      </h1>
+      <p className="mt-1 text-sm text-slate-600 dark:text-white/60">
+        Focus: terminer les fiches manquantes et les patterns cles.
+      </p>
+    </div>
+
+    <div className="flex items-center gap-2 text-[10px] text-slate-600 dark:text-white/60">
+      <span className="inline-flex items-center gap-1 rounded-full border border-black/10 bg-black/5 px-1.5 py-0.5 dark:border-white/10 dark:bg-white/5">
+        <span className="inline-flex h-2.5 w-2.5 items-center justify-center rounded border border-emerald-300/40 bg-emerald-500/20">
+          <span className="h-1.5 w-1.5 rounded-sm bg-emerald-400" />
+        </span>
+        <span className="whitespace-nowrap">Fait</span>
+      </span>
+      <span className="inline-flex items-center gap-1 rounded-full border border-black/10 bg-black/5 px-1.5 py-0.5 dark:border-white/10 dark:bg-white/5">
+        <span className="inline-flex h-2.5 w-2.5 items-center justify-center rounded border border-black/20 dark:border-white/20" />
+        <span className="whitespace-nowrap">Manquant</span>
+      </span>
+    </div>
+  </div>
+</div>
+
+<div className="mt-6">
+  <h2 className="text-base font-semibold text-slate-900 dark:text-white">
+    TODO payloads
+  </h2>
+  <p className="mt-1 text-sm text-slate-600 dark:text-white/60">
+    Les prochaines fiches a ajouter ou terminer.
+  </p>
+</div>
+
+<TodoSections sections={todo.payload.sections} />
+
+<div className="mt-6">
+  <h2 className="text-base font-semibold text-slate-900 dark:text-white">
+    TODO site
+  </h2>
+  <p className="mt-1 text-sm text-slate-600 dark:text-white/60">
+    Ameliorations produit et UX du site.
+  </p>
+</div>
+
+<TodoList sections={todo.site.sections} />
+
+<div className="mt-6 grid gap-5 lg:grid-cols-[1.4fr_1fr]">
+  <div className="rounded-3xl border border-black/10 bg-black/5 p-4 dark:border-white/10 dark:bg-white/5">
+    <p className="text-[11px] uppercase tracking-[0.4em] text-slate-500 dark:text-white/40">
+      Activite
+    </p>
+    <h2 className="mt-2 text-sm font-semibold text-slate-800 dark:text-white/80">
+      Push recents
+    </h2>
+    <PlainImg
+      className="mt-4 w-full rounded-2xl border border-black/10 dark:border-white/10"
+      alt="Graph GitHub des activites pour MisTraleuh/Fuck-Jails"
+      src="https://github-readme-activity-graph.vercel.app/graph?username=MisTraleuh&repo=Fuck-Jails&bg_color=00000000&color=94a3b8&line=38bdf8&point=f472b6&hide_border=true&radius=8"
+      loading="lazy"
+    />
+  </div>
+  <div className="rounded-3xl border border-black/10 bg-black/5 p-4 dark:border-white/10 dark:bg-white/5">
+    <p className="text-[11px] uppercase tracking-[0.4em] text-slate-500 dark:text-white/40">
+      Repo
+    </p>
+    <h2 className="mt-2 text-sm font-semibold text-slate-800 dark:text-white/80">
+      Historique des stars
+    </h2>
+    <PlainImg
+      className="mt-4 w-full rounded-2xl border border-black/10 bg-black/5 dark:border-white/10 dark:bg-black/20"
+      alt="Historique des stars GitHub pour MisTraleuh/Fuck-Jails"
+      src="https://api.star-history.com/svg?repos=MisTraleuh/Fuck-Jails&type=Date"
+      loading="lazy"
+    />
+  </div>
+</div>
+
+<div className="mt-4 rounded-3xl border border-black/10 bg-gradient-to-br from-black/5 via-black/3 to-transparent p-4 text-sm text-slate-600 dark:border-white/10 dark:from-white/5 dark:via-white/3 dark:text-white/60">
+  Besoin d'ajouter plus ?{" "}
+  <a
+    href="https://github.com/MisTraleuh/Fuck-Jails/issues/new"
+    className="text-blue-600 hover:text-blue-500 dark:text-blue-400 dark:hover:text-blue-300 transition-colors"
+    target="_blank"
+    rel="noreferrer"
+  >
+    Ouvrir une issue
+  </a>{" "}
+  ou une PR avec un petit demo et un court writeup.
+</div>

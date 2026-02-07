@@ -13,7 +13,7 @@ export default async function Page({
 }: {
   params: { slug?: string[] }
 }) {
-  const page = docs.getPage(params.slug)
+  const page = docs.getPage(params.slug, "en")
 
   if (page == null) {
     notFound()
@@ -27,28 +27,28 @@ export default async function Page({
     children = (
       <>
         <MDX />
-        <AllCodeDemos />
+        <AllCodeDemos locale="en" />
       </>
     )
   } else if (layout === "PythonCheatSheet") {
     children = (
       <>
         <MDX />
-        <AllPythonCheatSheetDemos />
+        <AllPythonCheatSheetDemos locale="en" />
       </>
     )
   } else if (layout === "CCheatSheet") {
     children = (
       <>
         <MDX />
-        <AllCCheatSheetDemos />
+        <AllCCheatSheetDemos locale="en" />
       </>
     )
   } else if (layout === "BashCheatSheet") {
     children = (
       <>
         <MDX />
-        <AllBashCheatSheetDemos />
+        <AllBashCheatSheetDemos locale="en" />
       </>
     )
   }
@@ -80,13 +80,13 @@ export default async function Page({
 }
 
 export async function generateStaticParams() {
-  return docs.getPages().map((page) => ({
+  return docs.getPages("en").map((page) => ({
     slug: page.slugs,
   }))
 }
 
 export function generateMetadata({ params }: { params: { slug?: string[] } }) {
-  const page = docs.getPage(params.slug)
+  const page = docs.getPage(params.slug, "en")
 
   if (page == null) notFound()
 

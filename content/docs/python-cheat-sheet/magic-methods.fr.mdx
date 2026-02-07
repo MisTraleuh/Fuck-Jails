@@ -1,0 +1,37 @@
+---
+title: Methodes magiques
+description: Methodes magiques
+layout: PreviewAndImplementation
+---
+
+import { CodeWithNotes } from "@/components/code/code-with-notes"
+
+## !demo
+
+| Methode magique                         | Quand elle est appelee (exemple)     | Description                               |
+|:--------------------------------------:|:-------------------------------------:|:-------------------------------------------:|
+| ``__new__(cls [,...])``                | ``instance = MyClass(arg1, arg2)``    | ``__new__`` est appelee a la creation       |
+| ``__init__(self [,...])``              | ``instance = MyClass(arg1, arg2)``    | ``__init__`` est appelee a la creation      |
+| ``__cmp__(self, other)``               | ``self == other, self > other, etc.`` | Appelee pour toute comparaison              |
+| ``__pos__(self)``                      | ``+self``                             | Plus unaire                                |
+| ``__neg__(self)``                      | ``-self``                             | Moins unaire                               |
+| ``__invert__(self)``                   | ``~self``                             | Inversion bitwise                          |
+| ``__index__(self)``                    | ``x[self]``                           | Conversion en index                        |
+| ``__nonzero__(self)``                  | ``bool(self)``                        | Valeur booleenne de l'objet                |
+| ``__getattr__(self, name)``            | ``self.name # name n'existe pas``     | Acces a un attribut inexistant             |
+| ``__setattr__(self, name, val)``       | ``self.name = val``                   | Assignation d'attribut                     |
+| ``__delattr__(self, name)``            | ``del self.name``                     | Suppression d'attribut                     |
+| ``__getattribute__(self, name)``       | ``self.name``                         | Acces a n'importe quel attribut            |
+| ``__getitem__(self, key)``             | ``self[key]``                         | Acces par index                            |
+| ``__setitem__(self, key, val)``        | ``self[key] = val``                   | Assignation par index                      |
+| ``__delitem__(self, key)``             | ``del self[key]``                     | Suppression par index                      |
+| ``__iter__(self)``                     | ``for x in self``                     | Iteration                                  |
+| ``__contains__(self, value)``          | ``value in self, value not in self``  | Tests d'appartenance                       |
+| ``__call__(self [,...])``              | ``self(args)``                        | "Appeler" une instance                     |
+| ``__enter__(self)``                    | ``with self as x:``                   | Context manager                            |
+| ``__exit__(self, exc, val, trace)``    | ``with self as x:``                   | Context manager                            |
+| ``__getstate__(self)``                 | ``pickle.dump(pkl_file, self)``       | Pickle                                     |
+| ``__setstate__(self)``                 | ``data = pickle.load(pkl_file)``      | Pickle                                     |
+
+
+<Demo folder="python-cheat-sheet" name="magic-methods" displayUsage={false} />

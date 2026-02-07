@@ -19,6 +19,12 @@ type ExternalLink = {
 
 export function NavBar({ version }: { version: string }) {
   const pathname = usePathname()
+  const { currentLocale, nextLocale, nextHref } = getLocaleSwitch(pathname)
+  const languageLink: ExternalLink = {
+    href: nextHref,
+    label: `Switch to ${nextLocale.toUpperCase()}`,
+    icon: <LocaleBadge label={currentLocale.toUpperCase()} />,
+  }
   const socialLinks: ExternalLink[] = [
     {
       href: "https://discord.com/users/474143573928050710",
@@ -33,6 +39,7 @@ export function NavBar({ version }: { version: string }) {
       external: true,
     },
   ]
+  const navLinks = [languageLink, ...socialLinks]
 
   return (
     <Nav
@@ -41,9 +48,9 @@ export function NavBar({ version }: { version: string }) {
           <CodeHikeLogo /> Fuck Jails
         </span>
       }
-      enableSidebar={pathname === "/docs" || pathname.startsWith("/docs/")}
+      enableSidebar={isDocsPath(pathname)}
       collapsibleSidebar={true}
-      links={socialLinks}
+      links={navLinks}
       items={[
         /*
         {
@@ -57,7 +64,7 @@ export function NavBar({ version }: { version: string }) {
         */
       ]}
     >
-      <MobileLinks links={socialLinks} />
+      <MobileLinks links={navLinks} />
     </Nav>
   )
 }
@@ -158,5 +165,58 @@ function MobileLinks({ links }: { links: ExternalLink[] }) {
         </a>
       ))}
     </div>
+  )
+}
+
+function getLocaleSwitch(pathname: string) {
+  const segments = pathname.split("/").filter(Boolean)
+  const localePrefix = segments[0] === "en" || segments[0] === "fr"
+
+  if (localePrefix) {
+    const currentLocale = segments[0]
+    const nextLocale = currentLocale === "en" ? "fr" : "en"
+    const nextSegments = [nextLocale, ...segments.slice(1)]
+    const nextHref = `/${nextSegments.join("/")}`
+    return { currentLocale, nextLocale, nextHref }
+  }
+
+  if (pathname.startsWith("/docs")) {
+    return {
+      currentLocale: "en",
+      nextLocale: "fr",
+      nextHref: `/fr${pathname}`,
+    }
+  }
+
+  if (pathname === "/") {
+    return {
+      currentLocale: "en",
+      nextLocale: "fr",
+      nextHref: "/fr",
+    }
+  }
+
+  return {
+    currentLocale: "en",
+    nextLocale: "fr",
+    nextHref: `/fr${pathname}`,
+  }
+
+}
+
+function LocaleBadge({ label }: { label: string }) {
+  return (
+    <span className="rounded-md border border-border px-1.5 py-0.5 text-[10px] font-semibold tracking-wide">
+      {label}
+    </span>
+  )
+}
+
+function isDocsPath(pathname: string) {
+  return (
+    pathname === "/docs" ||
+    pathname.startsWith("/docs/") ||
+    pathname.startsWith("/en/docs") ||
+    pathname.startsWith("/fr/docs")
   )
 }

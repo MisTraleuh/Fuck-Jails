@@ -1,0 +1,47 @@
+---
+title: Variables d'environnement
+description: Techniques d'exploitation via variables d'environnement
+layout: PreviewAndImplementation
+---
+
+import { CodeWithNotes } from "@/components/code/code-with-notes"
+
+## !demo
+
+Astuce rapide: ces exemples jouent sur des variables d'environnement shell.
+
+### Injection LD_PRELOAD
+
+<Demo folder="bash-cheat-sheet" name="ld-preload-fr" displayUsage={false} />
+
+### Backdoor BASH_ENV
+
+<Demo folder="bash-cheat-sheet" name="bash-env-fr" displayUsage={false} />
+
+### RCE via split IFS
+
+<Demo folder="bash-cheat-sheet" name="ifs-split-fr" displayUsage={false} />
+
+### Injection PS1/PS4/PROMPT_COMMAND
+
+<Demo folder="bash-cheat-sheet" name="ps-inject-fr" displayUsage={false} />
+
+### Detournement nameref
+
+<Demo folder="bash-cheat-sheet" name="nameref-hijack-fr" displayUsage={false} />
+
+### Astuce file descriptor
+
+<Demo folder="bash-cheat-sheet" name="fd-trick-fr" displayUsage={false} />
+
+### Exfiltration BASH_XTRACEFD
+
+<Demo folder="bash-cheat-sheet" name="bash-xtracefd-fr" displayUsage={false} />
+
+### Injection INPUTRC
+
+<Demo folder="bash-cheat-sheet" name="inputrc-inject-fr" displayUsage={false} />
+
+### RCE TIMEFORMAT
+
+<Demo folder="bash-cheat-sheet" name="timeformat-rce-fr" displayUsage={false} />

@@ -1,0 +1,12 @@
+{
+  "title": "Docs",
+  "pages": [
+    "index",
+    "contributions",
+    "todo",
+    "---Fiches---",
+    "python-cheat-sheet",
+    "c-cheat-sheet",
+    "bash-cheat-sheet"
+  ]
+}

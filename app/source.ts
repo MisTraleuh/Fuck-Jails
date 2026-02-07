@@ -5,6 +5,7 @@ import { z } from "zod"
 
 export const docs = loader({
   baseUrl: "/docs",
+  languages: ["en", "fr"],
   rootDir: "docs",
   source: createMDXSource(map, {
     schema: {
@@ -13,6 +14,11 @@ export const docs = loader({
       }),
     },
   }),
+  url: (slugs, locale) => {
+    const base = locale ? `/${locale}/docs` : "/docs"
+    if (!slugs || slugs.length === 0) return base
+    return `${base}/${slugs.join("/")}`
+  },
 })
 
 export const blog = loader({

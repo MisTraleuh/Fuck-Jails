@@ -1,0 +1,10 @@
+{
+  "title": "Fiches Python",
+  "pages": [
+    "index",
+    "...",
+    "bypass-commentary",
+    "code-object-override",
+    "decorators"
+  ]
+}
