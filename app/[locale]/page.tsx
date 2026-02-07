@@ -14,3 +14,7 @@ export default function Page({ params }: { params: { locale: string } }) {
 
   return <HomePage locale={locale} />
 }
+
+export function generateStaticParams() {
+  return [{ locale: "en" }, { locale: "fr" }]
+}
