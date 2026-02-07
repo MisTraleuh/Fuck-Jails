@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-07T14:45:26.336Z",
+  "generatedAt": "2026-02-07T18:26:33.437Z",
   "pages": [
     {
       "id": "docs",
@@ -42,6 +42,16 @@
       "title": "Bypass if statement",
       "normalizedTitle": "bypass if statement",
       "url": "/docs/bash-cheat-sheet/bypass-if-statement",
+      "category": "Bash Cheat Sheet",
+      "categorySlug": "bash-cheat-sheet",
+      "normalizedCategory": "bash cheat sheet",
+      "headings": []
+    },
+    {
+      "id": "docs/bash-cheat-sheet/bypass-if-statement.fr",
+      "title": "Contourner un if",
+      "normalizedTitle": "contourner un if",
+      "url": "/docs/bash-cheat-sheet/bypass-if-statement.fr",
       "category": "Bash Cheat Sheet",
       "categorySlug": "bash-cheat-sheet",
       "normalizedCategory": "bash cheat sheet",
@@ -104,10 +114,152 @@
       ]
     },
     {
+      "id": "docs/bash-cheat-sheet/environment-variables.en",
+      "title": "Environment Variables",
+      "normalizedTitle": "environment variables",
+      "url": "/docs/bash-cheat-sheet/environment-variables.en",
+      "category": "Bash Cheat Sheet",
+      "categorySlug": "bash-cheat-sheet",
+      "normalizedCategory": "bash cheat sheet",
+      "headings": [
+        {
+          "id": "ld_preload-injection",
+          "title": "LD_PRELOAD injection",
+          "normalizedTitle": "ld_preload injection"
+        },
+        {
+          "id": "bash_env-backdoor",
+          "title": "BASH_ENV backdoor",
+          "normalizedTitle": "bash_env backdoor"
+        },
+        {
+          "id": "ifs-splitting-rce",
+          "title": "IFS splitting RCE",
+          "normalizedTitle": "ifs splitting rce"
+        },
+        {
+          "id": "ps1ps4prompt_command-injection",
+          "title": "PS1/PS4/PROMPT_COMMAND injection",
+          "normalizedTitle": "ps1/ps4/prompt_command injection"
+        },
+        {
+          "id": "nameref-hijacking",
+          "title": "Nameref hijacking",
+          "normalizedTitle": "nameref hijacking"
+        },
+        {
+          "id": "file-descriptor-trick",
+          "title": "File descriptor trick",
+          "normalizedTitle": "file descriptor trick"
+        },
+        {
+          "id": "bash_xtracefd-exfiltration",
+          "title": "BASH_XTRACEFD exfiltration",
+          "normalizedTitle": "bash_xtracefd exfiltration"
+        },
+        {
+          "id": "inputrc-key-injection",
+          "title": "INPUTRC key injection",
+          "normalizedTitle": "inputrc key injection"
+        },
+        {
+          "id": "timeformat-rce",
+          "title": "TIMEFORMAT RCE",
+          "normalizedTitle": "timeformat rce"
+        }
+      ]
+    },
+    {
+      "id": "docs/bash-cheat-sheet/environment-variables.fr",
+      "title": "Variables d'environnement",
+      "normalizedTitle": "variables d'environnement",
+      "url": "/docs/bash-cheat-sheet/environment-variables.fr",
+      "category": "Bash Cheat Sheet",
+      "categorySlug": "bash-cheat-sheet",
+      "normalizedCategory": "bash cheat sheet",
+      "headings": [
+        {
+          "id": "injection-ld_preload",
+          "title": "Injection LD_PRELOAD",
+          "normalizedTitle": "injection ld_preload"
+        },
+        {
+          "id": "backdoor-bash_env",
+          "title": "Backdoor BASH_ENV",
+          "normalizedTitle": "backdoor bash_env"
+        },
+        {
+          "id": "rce-via-split-ifs",
+          "title": "RCE via split IFS",
+          "normalizedTitle": "rce via split ifs"
+        },
+        {
+          "id": "injection-ps1ps4prompt_command",
+          "title": "Injection PS1/PS4/PROMPT_COMMAND",
+          "normalizedTitle": "injection ps1/ps4/prompt_command"
+        },
+        {
+          "id": "detournement-nameref",
+          "title": "Detournement nameref",
+          "normalizedTitle": "detournement nameref"
+        },
+        {
+          "id": "astuce-file-descriptor",
+          "title": "Astuce file descriptor",
+          "normalizedTitle": "astuce file descriptor"
+        },
+        {
+          "id": "exfiltration-bash_xtracefd",
+          "title": "Exfiltration BASH_XTRACEFD",
+          "normalizedTitle": "exfiltration bash_xtracefd"
+        },
+        {
+          "id": "injection-inputrc",
+          "title": "Injection INPUTRC",
+          "normalizedTitle": "injection inputrc"
+        },
+        {
+          "id": "rce-timeformat",
+          "title": "RCE TIMEFORMAT",
+          "normalizedTitle": "rce timeformat"
+        }
+      ]
+    },
+    {
       "id": "docs/bash-cheat-sheet/globbing-tricks",
       "title": "Globbing tricks",
       "normalizedTitle": "globbing tricks",
       "url": "/docs/bash-cheat-sheet/globbing-tricks",
+      "category": "Bash Cheat Sheet",
+      "categorySlug": "bash-cheat-sheet",
+      "normalizedCategory": "bash cheat sheet",
+      "headings": []
+    },
+    {
+      "id": "docs/bash-cheat-sheet/globbing-tricks.en",
+      "title": "Globbing tricks",
+      "normalizedTitle": "globbing tricks",
+      "url": "/docs/bash-cheat-sheet/globbing-tricks.en",
+      "category": "Bash Cheat Sheet",
+      "categorySlug": "bash-cheat-sheet",
+      "normalizedCategory": "bash cheat sheet",
+      "headings": []
+    },
+    {
+      "id": "docs/bash-cheat-sheet/globbing-tricks.fr",
+      "title": "Astuces globbing",
+      "normalizedTitle": "astuces globbing",
+      "url": "/docs/bash-cheat-sheet/globbing-tricks.fr",
+      "category": "Bash Cheat Sheet",
+      "categorySlug": "bash-cheat-sheet",
+      "normalizedCategory": "bash cheat sheet",
+      "headings": []
+    },
+    {
+      "id": "docs/bash-cheat-sheet/index.en",
+      "title": "Bash Cheat Sheets",
+      "normalizedTitle": "bash cheat sheets",
+      "url": "/docs/bash-cheat-sheet/index.en",
       "category": "Bash Cheat Sheet",
       "categorySlug": "bash-cheat-sheet",
       "normalizedCategory": "bash cheat sheet",
@@ -134,10 +286,50 @@
       "headings": []
     },
     {
+      "id": "docs/bash-cheat-sheet/without-alphabeat.en",
+      "title": "Without alphabet",
+      "normalizedTitle": "without alphabet",
+      "url": "/docs/bash-cheat-sheet/without-alphabeat.en",
+      "category": "Bash Cheat Sheet",
+      "categorySlug": "bash-cheat-sheet",
+      "normalizedCategory": "bash cheat sheet",
+      "headings": []
+    },
+    {
+      "id": "docs/bash-cheat-sheet/without-alphabeat.fr",
+      "title": "Sans alphabet",
+      "normalizedTitle": "sans alphabet",
+      "url": "/docs/bash-cheat-sheet/without-alphabeat.fr",
+      "category": "Bash Cheat Sheet",
+      "categorySlug": "bash-cheat-sheet",
+      "normalizedCategory": "bash cheat sheet",
+      "headings": []
+    },
+    {
       "id": "docs/bash-cheat-sheet/without-main",
       "title": "Alpine Bugs",
       "normalizedTitle": "alpine bugs",
       "url": "/docs/bash-cheat-sheet/without-main",
+      "category": "Bash Cheat Sheet",
+      "categorySlug": "bash-cheat-sheet",
+      "normalizedCategory": "bash cheat sheet",
+      "headings": []
+    },
+    {
+      "id": "docs/bash-cheat-sheet/without-main.en",
+      "title": "Alpine Bugs",
+      "normalizedTitle": "alpine bugs",
+      "url": "/docs/bash-cheat-sheet/without-main.en",
+      "category": "Bash Cheat Sheet",
+      "categorySlug": "bash-cheat-sheet",
+      "normalizedCategory": "bash cheat sheet",
+      "headings": []
+    },
+    {
+      "id": "docs/bash-cheat-sheet/without-main.fr",
+      "title": "Bugs Alpine",
+      "normalizedTitle": "bugs alpine",
+      "url": "/docs/bash-cheat-sheet/without-main.fr",
       "category": "Bash Cheat Sheet",
       "categorySlug": "bash-cheat-sheet",
       "normalizedCategory": "bash cheat sheet",
@@ -158,6 +350,16 @@
       "title": "ASM tricks",
       "normalizedTitle": "asm tricks",
       "url": "/docs/c-cheat-sheet/asm-tricks",
+      "category": "C Cheat Sheet",
+      "categorySlug": "c-cheat-sheet",
+      "normalizedCategory": "c cheat sheet",
+      "headings": []
+    },
+    {
+      "id": "docs/c-cheat-sheet/asm-tricks.fr",
+      "title": "Astuces ASM",
+      "normalizedTitle": "astuces asm",
+      "url": "/docs/c-cheat-sheet/asm-tricks.fr",
       "category": "C Cheat Sheet",
       "categorySlug": "c-cheat-sheet",
       "normalizedCategory": "c cheat sheet",
@@ -190,6 +392,32 @@
       ]
     },
     {
+      "id": "docs/c-cheat-sheet/bypass-symbols.fr",
+      "title": "Contourner les symboles",
+      "normalizedTitle": "contourner les symboles",
+      "url": "/docs/c-cheat-sheet/bypass-symbols.fr",
+      "category": "C Cheat Sheet",
+      "categorySlug": "c-cheat-sheet",
+      "normalizedCategory": "c cheat sheet",
+      "headings": [
+        {
+          "id": "diagraphes",
+          "title": "Diagraphes",
+          "normalizedTitle": "diagraphes"
+        },
+        {
+          "id": "trigraphes",
+          "title": "Trigraphes",
+          "normalizedTitle": "trigraphes"
+        },
+        {
+          "id": "main-sans--",
+          "title": "Main sans `-{}#%>?!`",
+          "normalizedTitle": "main sans `-{}#%>?!`"
+        }
+      ]
+    },
+    {
       "id": "docs/c-cheat-sheet/good-to-know",
       "title": "Good To Know",
       "normalizedTitle": "good to know",
@@ -209,6 +437,26 @@
           "normalizedTitle": "create int"
         }
       ]
+    },
+    {
+      "id": "docs/c-cheat-sheet/good-to-know.fr",
+      "title": "Bon a savoir",
+      "normalizedTitle": "bon a savoir",
+      "url": "/docs/c-cheat-sheet/good-to-know.fr",
+      "category": "C Cheat Sheet",
+      "categorySlug": "c-cheat-sheet",
+      "normalizedCategory": "c cheat sheet",
+      "headings": []
+    },
+    {
+      "id": "docs/c-cheat-sheet/index.en",
+      "title": "C Cheat Sheets",
+      "normalizedTitle": "c cheat sheets",
+      "url": "/docs/c-cheat-sheet/index.en",
+      "category": "C Cheat Sheet",
+      "categorySlug": "c-cheat-sheet",
+      "normalizedCategory": "c cheat sheet",
+      "headings": []
     },
     {
       "id": "docs/c-cheat-sheet/index.fr",
@@ -231,6 +479,16 @@
       "headings": []
     },
     {
+      "id": "docs/c-cheat-sheet/without-alphabeat.fr",
+      "title": "Sans alphabet",
+      "normalizedTitle": "sans alphabet",
+      "url": "/docs/c-cheat-sheet/without-alphabeat.fr",
+      "category": "C Cheat Sheet",
+      "categorySlug": "c-cheat-sheet",
+      "normalizedCategory": "c cheat sheet",
+      "headings": []
+    },
+    {
       "id": "docs/c-cheat-sheet/without-lower-letters",
       "title": "Without Lower Letters",
       "normalizedTitle": "without lower letters",
@@ -241,10 +499,30 @@
       "headings": []
     },
     {
+      "id": "docs/c-cheat-sheet/without-lower-letters.fr",
+      "title": "Sans minuscules",
+      "normalizedTitle": "sans minuscules",
+      "url": "/docs/c-cheat-sheet/without-lower-letters.fr",
+      "category": "C Cheat Sheet",
+      "categorySlug": "c-cheat-sheet",
+      "normalizedCategory": "c cheat sheet",
+      "headings": []
+    },
+    {
       "id": "docs/c-cheat-sheet/without-main",
       "title": "Without Parenthese",
       "normalizedTitle": "without parenthese",
       "url": "/docs/c-cheat-sheet/without-main",
+      "category": "C Cheat Sheet",
+      "categorySlug": "c-cheat-sheet",
+      "normalizedCategory": "c cheat sheet",
+      "headings": []
+    },
+    {
+      "id": "docs/c-cheat-sheet/without-main.fr",
+      "title": "Sans parentheses",
+      "normalizedTitle": "sans parentheses",
+      "url": "/docs/c-cheat-sheet/without-main.fr",
       "category": "C Cheat Sheet",
       "categorySlug": "c-cheat-sheet",
       "normalizedCategory": "c cheat sheet",
@@ -301,14 +579,14 @@
       "normalizedCategory": "python cheat sheet",
       "headings": [
         {
-          "id": "dinghz-and-",
-          "title": "ding:hz and ~",
-          "normalizedTitle": "ding:hz and ~"
+          "id": "dinghz-et-",
+          "title": "ding:hz et ~",
+          "normalizedTitle": "ding:hz et ~"
         },
         {
-          "id": "zip-confusion",
-          "title": "zip confusion",
-          "normalizedTitle": "zip confusion"
+          "id": "confusion-zip",
+          "title": "confusion zip",
+          "normalizedTitle": "confusion zip"
         }
       ]
     },
@@ -363,6 +641,16 @@
       "headings": []
     },
     {
+      "id": "docs/python-cheat-sheet/environment-variables.fr",
+      "title": "Variables d'environnement",
+      "normalizedTitle": "variables d'environnement",
+      "url": "/docs/python-cheat-sheet/environment-variables.fr",
+      "category": "Python Cheat Sheet",
+      "categorySlug": "python-cheat-sheet",
+      "normalizedCategory": "python cheat sheet",
+      "headings": []
+    },
+    {
       "id": "docs/python-cheat-sheet/finding-sinks-from-modules",
       "title": "Finding sinks from modules",
       "normalizedTitle": "finding sinks from modules",
@@ -379,10 +667,36 @@
       ]
     },
     {
+      "id": "docs/python-cheat-sheet/finding-sinks-from-modules.fr",
+      "title": "Trouver des sinks dans des modules",
+      "normalizedTitle": "trouver des sinks dans des modules",
+      "url": "/docs/python-cheat-sheet/finding-sinks-from-modules.fr",
+      "category": "Python Cheat Sheet",
+      "categorySlug": "python-cheat-sheet",
+      "normalizedCategory": "python cheat sheet",
+      "headings": [
+        {
+          "id": "comment-trouver-des-sinks-dans-des-modules",
+          "title": "Comment trouver des sinks dans des modules",
+          "normalizedTitle": "comment trouver des sinks dans des modules"
+        }
+      ]
+    },
+    {
       "id": "docs/python-cheat-sheet/format-string",
       "title": "Format string",
       "normalizedTitle": "format string",
       "url": "/docs/python-cheat-sheet/format-string",
+      "category": "Python Cheat Sheet",
+      "categorySlug": "python-cheat-sheet",
+      "normalizedCategory": "python cheat sheet",
+      "headings": []
+    },
+    {
+      "id": "docs/python-cheat-sheet/format-string.fr",
+      "title": "Format string",
+      "normalizedTitle": "format string",
+      "url": "/docs/python-cheat-sheet/format-string.fr",
       "category": "Python Cheat Sheet",
       "categorySlug": "python-cheat-sheet",
       "normalizedCategory": "python cheat sheet",
@@ -410,6 +724,37 @@
       ]
     },
     {
+      "id": "docs/python-cheat-sheet/good-to-know.fr",
+      "title": "Bon a savoir",
+      "normalizedTitle": "bon a savoir",
+      "url": "/docs/python-cheat-sheet/good-to-know.fr",
+      "category": "Python Cheat Sheet",
+      "categorySlug": "python-cheat-sheet",
+      "normalizedCategory": "python cheat sheet",
+      "headings": [
+        {
+          "id": "creer-des-chars--strings",
+          "title": "Creer des chars & strings",
+          "normalizedTitle": "creer des chars & strings"
+        },
+        {
+          "id": "creer-des-digits",
+          "title": "Creer des digits",
+          "normalizedTitle": "creer des digits"
+        }
+      ]
+    },
+    {
+      "id": "docs/python-cheat-sheet/index.en",
+      "title": "Python Cheat Sheets",
+      "normalizedTitle": "python cheat sheets",
+      "url": "/docs/python-cheat-sheet/index.en",
+      "category": "Python Cheat Sheet",
+      "categorySlug": "python-cheat-sheet",
+      "normalizedCategory": "python cheat sheet",
+      "headings": []
+    },
+    {
       "id": "docs/python-cheat-sheet/index.fr",
       "title": "Fiches Python",
       "normalizedTitle": "fiches python",
@@ -424,6 +769,16 @@
       "title": "Magic Methods",
       "normalizedTitle": "magic methods",
       "url": "/docs/python-cheat-sheet/magic-methods",
+      "category": "Python Cheat Sheet",
+      "categorySlug": "python-cheat-sheet",
+      "normalizedCategory": "python cheat sheet",
+      "headings": []
+    },
+    {
+      "id": "docs/python-cheat-sheet/magic-methods.fr",
+      "title": "Methodes magiques",
+      "normalizedTitle": "methodes magiques",
+      "url": "/docs/python-cheat-sheet/magic-methods.fr",
       "category": "Python Cheat Sheet",
       "categorySlug": "python-cheat-sheet",
       "normalizedCategory": "python cheat sheet",
@@ -446,6 +801,22 @@
       ]
     },
     {
+      "id": "docs/python-cheat-sheet/pickle.fr",
+      "title": "Pickle",
+      "normalizedTitle": "pickle",
+      "url": "/docs/python-cheat-sheet/pickle.fr",
+      "category": "Python Cheat Sheet",
+      "categorySlug": "python-cheat-sheet",
+      "normalizedCategory": "python cheat sheet",
+      "headings": [
+        {
+          "id": "avec-un-seul-global",
+          "title": "Avec un seul global",
+          "normalizedTitle": "avec un seul global"
+        }
+      ]
+    },
+    {
       "id": "docs/python-cheat-sheet/retrieving-builtins",
       "title": "Retrieving builtins",
       "normalizedTitle": "retrieving builtins",
@@ -456,10 +827,30 @@
       "headings": []
     },
     {
+      "id": "docs/python-cheat-sheet/retrieving-builtins.fr",
+      "title": "Recuperer les builtins",
+      "normalizedTitle": "recuperer les builtins",
+      "url": "/docs/python-cheat-sheet/retrieving-builtins.fr",
+      "category": "Python Cheat Sheet",
+      "categorySlug": "python-cheat-sheet",
+      "normalizedCategory": "python cheat sheet",
+      "headings": []
+    },
+    {
       "id": "docs/python-cheat-sheet/unicode-bypass",
       "title": "Unicode Bypass",
       "normalizedTitle": "unicode bypass",
       "url": "/docs/python-cheat-sheet/unicode-bypass",
+      "category": "Python Cheat Sheet",
+      "categorySlug": "python-cheat-sheet",
+      "normalizedCategory": "python cheat sheet",
+      "headings": []
+    },
+    {
+      "id": "docs/python-cheat-sheet/unicode-bypass.fr",
+      "title": "Unicode bypass",
+      "normalizedTitle": "unicode bypass",
+      "url": "/docs/python-cheat-sheet/unicode-bypass.fr",
       "category": "Python Cheat Sheet",
       "categorySlug": "python-cheat-sheet",
       "normalizedCategory": "python cheat sheet",
@@ -480,6 +871,16 @@
       "title": "Without Parenthesis",
       "normalizedTitle": "without parenthesis",
       "url": "/docs/python-cheat-sheet/without-parenthesis",
+      "category": "Python Cheat Sheet",
+      "categorySlug": "python-cheat-sheet",
+      "normalizedCategory": "python cheat sheet",
+      "headings": []
+    },
+    {
+      "id": "docs/python-cheat-sheet/without-parenthesis.fr",
+      "title": "Sans parentheses",
+      "normalizedTitle": "sans parentheses",
+      "url": "/docs/python-cheat-sheet/without-parenthesis.fr",
       "category": "Python Cheat Sheet",
       "categorySlug": "python-cheat-sheet",
       "normalizedCategory": "python cheat sheet",
