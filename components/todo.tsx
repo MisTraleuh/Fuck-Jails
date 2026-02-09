@@ -76,11 +76,32 @@ export function TodoSections({ sections }: { sections: TodoSection[] }) {
                   className="grid grid-cols-[auto_1fr] items-center gap-2"
                 >
                   <StatusDot status={status} />
-                  {item.url ? (
-                    <span className="flex min-w-0 flex-wrap items-center gap-2 font-medium leading-snug text-slate-800 dark:text-white/80">
-                      <span className="min-w-0 break-words">
-                        {item.label}
-                      </span>
+                  <span className="flex min-w-0 flex-wrap items-center gap-2 font-medium leading-snug text-slate-800 dark:text-white/80">
+                    {item.url && status === "done" ? (
+                      <a
+                        className="inline-flex min-w-0 items-center gap-1 break-words text-slate-800 transition hover:text-slate-950 dark:text-white/80 dark:hover:text-white"
+                        href={item.url}
+                      >
+                        <span>{item.label}</span>
+                        <svg
+                          aria-hidden="true"
+                          viewBox="0 0 20 20"
+                          className="h-3 w-3 text-slate-500 dark:text-white/60"
+                        >
+                          <path
+                            fill="currentColor"
+                            d="M11 4a1 1 0 0 0 0 2h2.59L8.3 11.3a1 1 0 1 0 1.4 1.4L15 7.42V10a1 1 0 1 0 2 0V4h-6z"
+                          />
+                          <path
+                            fill="currentColor"
+                            d="M5 6a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h7a2 2 0 0 0 2-2v-3a1 1 0 1 0-2 0v3H5V8h3a1 1 0 1 0 0-2H5z"
+                          />
+                        </svg>
+                      </a>
+                    ) : (
+                      <span className="min-w-0 break-words">{item.label}</span>
+                    )}
+                    {item.url && status !== "done" ? (
                       <a
                         className="inline-flex items-center gap-1 rounded-full border border-slate-300/40 bg-slate-200/50 px-1.5 py-0.5 text-[0.55rem] font-semibold uppercase tracking-[0.2em] text-slate-600 transition hover:text-slate-800 dark:border-white/15 dark:bg-white/10 dark:text-white/60 dark:hover:text-white/80"
                         href={item.url}
@@ -105,10 +126,8 @@ export function TodoSections({ sections }: { sections: TodoSection[] }) {
                           />
                         </svg>
                       </a>
-                    </span>
-                  ) : (
-                    <span className="min-w-0 break-words">{item.label}</span>
-                  )}
+                    ) : null}
+                  </span>
                 </li>
               )
             })}

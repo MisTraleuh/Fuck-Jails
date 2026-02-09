@@ -4,20 +4,20 @@
       {
         "title": "Python",
         "items": [
-          { "label": "Pickle tricks", "status": "done" },
-          { "label": "Magic methods overview", "status": "done" },
-          { "label": "Code object internals", "status": "done" },
+          { "label": "Pickle tricks", "status": "done", "url": "https://mistraleuh.github.io/Fuck-Jails/docs/python-cheat-sheet/pickle" },
+          { "label": "Magic methods overview", "status": "done", "url": "https://mistraleuh.github.io/Fuck-Jails/docs/python-cheat-sheet/magic-methods" },
+          { "label": "Code object override", "status": "done", "url": "https://mistraleuh.github.io/Fuck-Jails/docs/python-cheat-sheet/code-object-override" },
           { "label": "Retrieving deleted variables", "status": "todo" }
         ]
       },
       {
         "title": "C / C++",
         "items": [
-          { "label": "Trigraphs / digraphs", "status": "done" },
+          { "label": "Trigraphs / digraphs", "status": "done", "url": "http://localhost:3000/en/docs/c-cheat-sheet/bypass-symbols#diagraphs" },
           { "label": "Preprocessor tricks", "status": "needs-definition" },
           { "label": "Only with variable", "status": "needs-definition" },
           { "label": "Without alphanumeric characters", "status": "needs-definition" },
-          { "label": "Without main function", "status": "done" }
+          { "label": "Without main function", "status": "done", "url": "http://localhost:3000/en/docs/c-cheat-sheet/bypass-symbols#main-without--" }
         ]
       },
       {
@@ -32,7 +32,7 @@
       {
         "title": "Shellcode",
         "items": [
-          { "label": "Without letters", "status": "needs-definition" },
+          { "label": "Without letters", "status": "needs-definition", "url": "https://mistraleuh.github.io/Fuck-Jails/docs/python-cheat-sheet/code-object-override" },
           { "label": "Without digits", "status": "needs-definition" },
           { "label": "Without null bytes", "status": "needs-definition" },
           { "label": "Sorted by ASCII in ascending order", "status": "todo" },
