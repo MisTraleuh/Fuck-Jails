@@ -19,6 +19,13 @@ export default function Layout({ children }: { children: ReactNode }) {
       className={`${inter.className} snap-y`}
       suppressHydrationWarning
     >
+      <head>
+        <script
+          defer
+          src="https://cloud.umami.is/script.js"
+          data-website-id="49e32eff-096c-48eb-b232-dc78155c28f0"
+        />
+      </head>
       {/* <script src="https://unpkg.com/intersection-observer-debugger"></script> */}
       <body suppressHydrationWarning>
         <AppProviders>
