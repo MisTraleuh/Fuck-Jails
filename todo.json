@@ -4,62 +4,62 @@
       {
         "title": "Python",
         "items": [
-          { "label": "Pickle tricks", "done": true },
-          { "label": "Magic methods overview", "done": true },
-          { "label": "Code object internals", "done": true },
-          { "label": "Retrieving deleted variables", "done": false }
+          { "label": "Pickle tricks", "status": "done" },
+          { "label": "Magic methods overview", "status": "done" },
+          { "label": "Code object internals", "status": "done" },
+          { "label": "Retrieving deleted variables", "status": "todo" }
         ]
       },
       {
         "title": "C / C++",
         "items": [
-          { "label": "Trigraphs / digraphs", "done": true },
-          { "label": "Preprocessor tricks", "done": false },
-          { "label": "Only with variable", "done": false },
-          { "label": "Without alphanumeric characters", "done": false },
-          { "label": "Without main function", "done": false }
+          { "label": "Trigraphs / digraphs", "status": "done" },
+          { "label": "Preprocessor tricks", "status": "needs-definition" },
+          { "label": "Only with variable", "status": "needs-definition" },
+          { "label": "Without alphanumeric characters", "status": "needs-definition" },
+          { "label": "Without main function", "status": "done" }
         ]
       },
       {
         "title": "ASM / ELF",
         "items": [
-          { "label": "Minimal syscall templates", "done": false },
-          { "label": "Weird instruction encodings", "done": false },
-          { "label": "Polymorphic stubs", "done": false },
-          { "label": "ELF header tricks", "done": false }
+          { "label": "Minimal syscall templates", "status": "needs-definition" },
+          { "label": "Weird instruction encodings", "status": "needs-definition" },
+          { "label": "Polymorphic stubs", "status": "needs-definition" },
+          { "label": "ELF header tricks", "status": "todo" }
         ]
       },
       {
         "title": "Shellcode",
         "items": [
-          { "label": "Without letters", "done": false },
-          { "label": "Without digits", "done": false },
-          { "label": "Without null bytes", "done": false },
-          { "label": "Sorted by ASCII in ascending order", "done": false },
-          { "label": "Sorted by ASCII in descending order", "done": false }
+          { "label": "Without letters", "status": "needs-definition" },
+          { "label": "Without digits", "status": "needs-definition" },
+          { "label": "Without null bytes", "status": "needs-definition" },
+          { "label": "Sorted by ASCII in ascending order", "status": "todo" },
+          { "label": "Sorted by ASCII in descending order", "status": "needs-definition" }
         ]
       },
       {
         "title": "Javascript",
         "items": [
-          { "label": "Prototype pollution", "done": false },
-          { "label": "Constructor injection", "done": false },
-          { "label": "Without parenthesis", "done": false },
-          { "label": "Without alphanumeric characters", "done": false },
-          { "label": "Without alphabetic characters", "done": false },
-          { "label": "Create digits & letters", "done": false },
-          { "label": "Dynamic import tricks", "done": false },
-          { "label": "Retrieve global", "done": false }
+          { "label": "Prototype pollution", "status": "todo" },
+          { "label": "Constructor injection", "status": "todo" },
+          { "label": "Without parenthesis", "status": "todo" },
+          { "label": "Without alphanumeric characters", "status": "todo" },
+          { "label": "Without alphabetic characters", "status": "todo" },
+          { "label": "Create digits & letters", "status": "todo" },
+          { "label": "Dynamic import tricks", "status": "todo" },
+          { "label": "Retrieve global", "status": "todo" }
         ]
       },
       {
         "title": "PHP",
         "items": [
-          { "label": "Without alphanumeric characters", "done": false },
-          { "label": "Create digits & letters", "done": false },
-          { "label": "Prototype pollution", "done": false },
-          { "label": "Constructor injection", "done": false },
-          { "label": "Without parenthesis", "done": false }
+          { "label": "Without alphanumeric characters", "status": "todo" },
+          { "label": "Create digits & letters", "status": "todo" },
+          { "label": "Prototype pollution", "status": "todo" },
+          { "label": "Constructor injection", "status": "todo" },
+          { "label": "Without parenthesis", "status": "todo"}
         ]
       }
     ]
@@ -69,10 +69,12 @@
       {
         "title": "Site",
         "items": [
-          { "label": "i18n (FR/EN)", "done": true },
-          { "label": "Search UX polish", "done": false },
-          { "label": "Tags + filters for payloads", "done": false },
-          { "label": "Roadmap / changelog section", "done": false }
+          { "label": "i18n (FR/EN)", "status": "done" },
+          { "label": "Search UX polish", "status": "in-progress" },
+          { "label": "Tags + filters for payloads", "status": "todo" },
+          { "label": "Contribution guide page", "status": "todo" },
+          { "label": "Roadmap / changelog section", "status": "todo" },
+          { "label": "SEO + social preview audit", "status": "in-progress" }
         ]
       }
     ]

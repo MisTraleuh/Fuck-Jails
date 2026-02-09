@@ -22,7 +22,7 @@ import { PlainImg } from "@/components/plain-img"
       </p>
     </div>
 
-    <div className="flex items-center gap-2 text-[10px] text-slate-600 dark:text-white/60">
+    <div className="flex flex-wrap items-center gap-2 text-[10px] text-slate-600 dark:text-white/60">
       <span className="inline-flex items-center gap-1 rounded-full border border-black/10 bg-black/5 px-1.5 py-0.5 dark:border-white/10 dark:bg-white/5">
         <span className="inline-flex h-2.5 w-2.5 items-center justify-center rounded border border-emerald-300/40 bg-emerald-500/20">
           <span className="h-1.5 w-1.5 rounded-sm bg-emerald-400" />
@@ -30,10 +30,30 @@ import { PlainImg } from "@/components/plain-img"
         <span className="whitespace-nowrap">Fait</span>
       </span>
       <span className="inline-flex items-center gap-1 rounded-full border border-black/10 bg-black/5 px-1.5 py-0.5 dark:border-white/10 dark:bg-white/5">
-        <span className="inline-flex h-2.5 w-2.5 items-center justify-center rounded border border-black/20 dark:border-white/20" />
-        <span className="whitespace-nowrap">Manquant</span>
+        <span className="inline-flex h-2.5 w-2.5 items-center justify-center rounded border border-sky-300/40 bg-sky-500/20">
+          <span className="h-1.5 w-1.5 rounded-sm bg-sky-400" />
+        </span>
+        <span className="whitespace-nowrap">En cours</span>
+      </span>
+      <span className="inline-flex items-center gap-1 rounded-full border border-black/10 bg-black/5 px-1.5 py-0.5 dark:border-white/10 dark:bg-white/5">
+        <span className="inline-flex h-2.5 w-2.5 items-center justify-center rounded border border-indigo-300/40 bg-indigo-500/20">
+          <span className="h-1.5 w-1.5 rounded-sm bg-indigo-400" />
+        </span>
+        <span className="whitespace-nowrap">A faire</span>
+      </span>
+      <span className="inline-flex items-center gap-1 rounded-full border border-black/10 bg-black/5 px-1.5 py-0.5 dark:border-white/10 dark:bg-white/5">
+        <span className="inline-flex h-2.5 w-2.5 items-center justify-center rounded border border-amber-300/40 bg-amber-500/20">
+          <span className="h-1.5 w-1.5 rounded-sm bg-amber-400" />
+        </span>
+        <span className="whitespace-nowrap">A definir</span>
       </span>
     </div>
+    <ul className="mt-2 space-y-1 text-xs text-slate-600 dark:text-white/60">
+      <li>Fait: terminé et documenté</li>
+      <li>En cours: en rédaction</li>
+      <li>A faire: on sait comment faire, à rédiger</li>
+      <li>A définir: on ne sait pas comment faire</li>
+    </ul>
   </div>
 </div>
 
