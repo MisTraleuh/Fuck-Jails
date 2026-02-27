@@ -75,7 +75,7 @@
           { "label": "Search UX polish", "status": "in-progress" },
           { "label": "Tags + filters for payloads", "status": "todo" },
           { "label": "Contribution guide page", "status": "todo" },
-          { "label": "Roadmap / changelog section", "status": "todo" },
+          { "label": "Changelog section", "status": "done" },
           { "label": "SEO + social preview audit", "status": "in-progress" }
         ]
       }
